@@ -11,9 +11,8 @@ $current_page = basename($_SERVER['PHP_SELF']);
       <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
 
       <!--=============== CSS ===============-->
-      <link rel="stylesheet" href="assets/css/styles.css">
+      <link rel="stylesheet" href="includes/assets/css/styles.css">
 
-      <title>Responsive dropdown menu - Bedimcode</title>
    </head>
    <body>
       <!--=============== HEADER ===============-->
@@ -21,7 +20,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
          <nav class="nav container">
             <div class="nav__data">
                <a href="#" class="nav__logo">
-                  <i class="ri-planet-line"></i> Company
+                  <i class="ri-planet-line"></i> Golden Lines
                </a>
                
                <div class="nav__toggle" id="nav-toggle">
@@ -79,19 +78,19 @@ $current_page = basename($_SERVER['PHP_SELF']);
                            <ul class="dropdown__submenu">
                               <li>
                                  <a href="#" class="dropdown__sublink">
-                                    <i class="ri-file-list-line"></i> Documents
+                                     Documents
                                  </a>
                               </li>
       
                               <li>
                                  <a href="#" class="dropdown__sublink">
-                                    <i class="ri-cash-line"></i> Payments
+                                     Payments
                                  </a>
                               </li>
       
                               <li>
                                  <a href="#" class="dropdown__sublink">
-                                    <i class="ri-refund-2-line"></i> Refunds
+                                    Refunds
                                  </a>
                               </li>
                            </ul>
@@ -108,19 +107,19 @@ $current_page = basename($_SERVER['PHP_SELF']);
                      <ul class="dropdown__menu">
                         <li>
                            <a href="#" class="dropdown__link">
-                              <i class="ri-user-line"></i> Profiles
+                               Profiles
                            </a>                          
                         </li>
 
                         <li>
                            <a href="#" class="dropdown__link">
-                              <i class="ri-lock-line"></i> Accounts
+                               Accounts
                            </a>
                         </li>
 
                         <li>
                            <a href="#" class="dropdown__link">
-                              <i class="ri-message-3-line"></i> Messages
+                               Messages
                            </a>
                         </li>
                      </ul>
@@ -133,6 +132,6 @@ $current_page = basename($_SERVER['PHP_SELF']);
       </header>
 
       <!--=============== MAIN JS ===============-->
-      <script src="assets/js/main.js"></script>
+      <script src="includes/assets/js/main.js"></script>
    </body>
 </html>

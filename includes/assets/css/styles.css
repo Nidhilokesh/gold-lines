@@ -8,8 +8,8 @@
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
   --black-color: hsl(240, 100%, 0%);
-  --black-color-light: hsl(220, 24%, 15%);
-  --black-color-lighten: hsl(220, 20%, 18%);
+  --black-color-light: hsl(223, 11%, 12%);
+  --black-color-lighten: hsl(218, 20%, 8%);
   --white-color: #fff;
   --body-color: hsl(220, 100%, 97%);
 
@@ -309,6 +309,7 @@ a {
 
   .dropdown__subitem .dropdown__link {
     padding-inline: 1rem;
+    white-space: nowrap; 
   }
 
   .dropdown__submenu {
