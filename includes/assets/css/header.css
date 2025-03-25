@@ -104,6 +104,7 @@ a {
 .nav__logo i {
   font-weight: initial;
   font-size: 1.25rem;
+  color:#C4A968;
 }
 
 .nav__toggle {
@@ -143,6 +144,7 @@ a {
     font-weight: bold;
     border-bottom: 2px solid #C4A968; 
 }
+
 
 /* Navigation for mobile devices */
 @media screen and (max-width: 1118px) {

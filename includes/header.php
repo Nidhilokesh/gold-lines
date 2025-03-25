@@ -11,7 +11,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
       <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
 
       <!--=============== CSS ===============-->
-      <link rel="stylesheet" href="includes/assets/css/styles.css">
+      <link rel="stylesheet" href="includes/assets/css/header.css">
 
    </head>
    <body>
@@ -132,6 +132,6 @@ $current_page = basename($_SERVER['PHP_SELF']);
       </header>
 
       <!--=============== MAIN JS ===============-->
-      <script src="includes/assets/js/main.js"></script>
+      <script src="includes/assets/js/header.js"></script>
    </body>
 </html>
