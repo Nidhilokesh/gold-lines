@@ -32,9 +32,9 @@ $current_page = basename($_SERVER['PHP_SELF']);
             <!--=============== NAV MENU ===============-->
             <div class="nav__menu" id="nav-menu">
                <ul class="nav__list">
-                  <li><a href="#" class="nav__link">Home</a></li>
+                  <li><a href="index.php" class="nav__link <?= ($current_page == 'index.php') ? 'active' : ''; ?>">Home</a></li>
 
-                  <li><a href="#" class="nav__link">About Us</a></li>
+                  <li><a href="aboutus.php" class="nav__link <?= ($current_page == 'aboutus.php') ? 'active' : ''; ?>">About Us</a></li>
 
                   <!--=============== DROPDOWN 1 ===============-->
                   <li class="dropdown__item">

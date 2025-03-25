@@ -128,6 +128,22 @@ a {
   opacity: 0;
 }
 
+/* hover */
+.nav__link:hover,
+.dropdown__link:hover,
+.dropdown__sublink:hover {
+    color: #C4A968; 
+    transition: color 0.3s ease-in-out;
+}
+/* Active Link */
+.nav__link.active,
+.dropdown__link.active,
+.dropdown__sublink.active {
+    color: #C4A968; 
+    font-weight: bold;
+    border-bottom: 2px solid #C4A968; 
+}
+
 /* Navigation for mobile devices */
 @media screen and (max-width: 1118px) {
   .nav__menu {
