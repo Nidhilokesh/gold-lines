@@ -45,7 +45,7 @@
                     </div>
                     <h3>Construction</h3>
                     <p>Helping you create your development from a vision, or delivering marked improvement to your existing project.</p>
-                    <a href="#" class="service-learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                    <a href="construction.php" class="service-learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
                 </div>
 
                 <div class="service-card fade-in">
@@ -54,7 +54,7 @@
                     </div>
                     <h3>Infrastructure</h3>
                     <p>Creating infrastructure that adds comfort and ease while helping protect assets, employees and customers.</p>
-                    <a href="#" class="service-learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                    <a href="infrasturcture.php" class="service-learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
                 </div>
 
                 <div class="service-card fade-in">
