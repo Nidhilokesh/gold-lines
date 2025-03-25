@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,14 +21,19 @@
                     <a href="#services" class="hero-cta">OUR SERVICES</a>
                 </div>
             </div>
-            <div class="hero-image fade-in">
-                <img src="/api/placeholder/500/400" alt="Golden Lines Services" style="width:100%; border-radius:8px;">
-            </div>
+        </div>
+    </section>
+
+    <!-- Service Focus Areas Section -->
+    <section class="service-focus section-stagger" id="service-focus">
+        <div class="container service-focus-content">
+            <h2>OUR <span>SERVICE FOCUS</span> AREAS</h2>
+            <p>We pride on creating long-term relationships and adding value-driven innovation and efficiency across all projects we undertake in our diverse service focus areas. That's the reason our vast majority of clients consistently re-hire us.</p>
         </div>
     </section>
 
     <!-- Services Section -->
-    <section class="services" id="services">
+    <section class="services section-stagger" id="services">
         <div class="container">
             <div class="services-grid">
                 <div class="service-card fade-in">
@@ -84,60 +88,104 @@
         </div>
     </section>
 
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            // Navbar scroll effect
-            const header = document.getElementById('header');
-            window.addEventListener('scroll', function() {
-                if (window.scrollY > 50) {
-                    header.style.backgroundColor = 'rgba(21, 21, 21, 0.9)';
-                    header.style.backdropFilter = 'blur(10px)';
-                } else {
-                    header.style.backgroundColor = 'transparent';
-                    header.style.backdropFilter = 'none';
-                }
-            });
+    <!-- Featured Projects Section -->
+    <section class="featured-projects section-stagger" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured <span>Projects</span></h2>
+                <p>We are extremely cognizant of the fact that every project and customer is different. 
+                   Given below are a select few of the projects we are exceptionally proud of.</p>
+            </div>
 
-            // Fade-in animations
-            const fadeElements = document.querySelectorAll('.fade-in');
-            const observer = new IntersectionObserver(entries => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add('visible');
-                    }
-                });
-            }, { threshold: 0.1 });
+            <div class="projects-grid">
+                <div class="project-card fade-in" data-project="hvac">
+                    <div class="project-icon">
+                        <i class="fas fa-wind"></i>
+                    </div>
+                    <div class="project-main-content">
+                        <h3>HVAC Installation</h3>
+                    </div>
+                    <div class="project-details">
+                        <h4>Location: USAF | Prince Sultan Air Base</h4>
+                        <p>Supply and installation of 80 Packaged HVAC Units, construction of concrete pads, 
+                           fabrication and installation of GI Air Duct and Fabric Air Duct System in numerous 
+                           tents and structures of US Air Force.</p>
+                    </div>
+                </div>
 
-            fadeElements.forEach(element => {
-                observer.observe(element);
-                element.style.transitionDelay = `${Math.random() * 0.5}s`;
-            });
+                <div class="project-card fade-in" data-project="solar">
+                    <div class="project-icon">
+                        <i class="fas fa-solar-panel"></i>
+                    </div>
+                    <div class="project-main-content">
+                        <h3>Solar Street Lighting</h3>
+                    </div>
+                    <div class="project-details">
+                        <h4>Location: USAF | Prince Sultan Air Base</h4>
+                        <p>Comprehensive solar street lighting system installation providing sustainable 
+                           and efficient lighting solutions for the military base infrastructure.</p>
+                    </div>
+                </div>
 
-            // Particle generation
-            const particlesContainer = document.getElementById('particles');
-            const particleCount = 30;
-            
-            for (let i = 0; i < particleCount; i++) {
-                const particle = document.createElement('div');
-                particle.classList.add('particle');
-                
-                const size = Math.random() * 6 + 2;
-                const posX = Math.random() * 100;
-                const posY = Math.random() * 100;
-                
-                particle.style.width = `${size}px`;
-                particle.style.height = `${size}px`;
-                particle.style.left = `${posX}%`;
-                particle.style.top = `${posY}%`;
-                particle.style.opacity = Math.random() * 0.5;
-                
-                const duration = Math.random() * 15 + 10;
-                const delay = Math.random() * 5;
-                particle.style.animation = `floatParticle ${duration}s ease-in-out ${delay}s infinite`;
-                
-                particlesContainer.appendChild(particle);
-            }
-        });
-    </script>
+                <div class="project-card fade-in" data-project="network">
+                    <div class="project-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <div class="project-main-content">
+                        <h3>Network Comm Duct Banks</h3>
+                    </div>
+                    <div class="project-details">
+                        <h4>Location: Prince Sultan Air Base</h4>
+                        <p>Installation of communication duct banks to enhance network infrastructure 
+                           and communication capabilities at the military base.</p>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in" data-project="life-support">
+                    <div class="project-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <div class="project-main-content">
+                        <h3>Basic Life Support Services</h3>
+                    </div>
+                    <div class="project-details">
+                        <h4>Location: US Marines | Yanbu</h4>
+                        <p>Providing critical life support services to ensure operational readiness 
+                           and personnel welfare for US Marine units.</p>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in" data-project="life-support">
+                    <div class="project-icon">
+                        <i class="fas fa-concierge-bell"></i>
+                    </div>
+                    <div class="project-main-content">
+                        <h3>Dining Facility & dface Upgrade Services</h3>
+                    </div>
+                    <div class="project-details">
+                        <h4>Location: US Marines | Yanbu</h4>
+                        <p>Providing critical life support services to ensure operational readiness 
+                           and personnel welfare for US Marine units.</p>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in" data-project="shuttle">
+                    <div class="project-icon">
+                        <i class="fas fa-shuttle-van"></i>
+                    </div>
+                    <div class="project-main-content">
+                        <h3>Shuttle & Motor Pool Services</h3>
+                    </div>
+                    <div class="project-details">
+                        <h4>Location: USMTM</h4>
+                        <p>Comprehensive shuttle and motor pool services to support mobility 
+                           and transportation needs of military personnel.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src = "javascript/index.js" ></script>
 </body>
 </html>
