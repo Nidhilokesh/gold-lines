@@ -140,3 +140,7 @@
   <script src = "javascript/aboutus.js"></script>
 </body>
 </html>
+
+<?php
+  include 'includes/footer.php';
+?>

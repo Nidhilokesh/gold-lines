@@ -192,3 +192,7 @@
     <script src = "javascript/index.js" ></script>
 </body>
 </html>
+
+<?php
+  include 'includes/footer.php';
+?>
