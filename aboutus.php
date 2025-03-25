@@ -73,7 +73,7 @@
   <!-- Leadership Section -->
   <section class="leadership">
     <div class="container">
-      <h2 class="animate-on-scroll">Our LEADERSHIP</h2>
+      <h2 class="animate-on-scroll">OUR LEADERSHIP</h2>
       <div class="leadership-grid">
         <div class="leader-card animate-on-scroll">
           <div class="leader-image">
@@ -110,32 +110,32 @@
   </section>
 
   <!-- Partners Slider Section -->
-  <section class="slider-section">
+  <!-- <section class="slider-section">
     <div class="container">
       <h2 class="animate-on-scroll">OUR VALUED PARTNERS</h2>
       <div class="slider-container" id="partnersSlider">
         <button class="arrow-btn arrow-left" id="partnersPrev"><i class="fas fa-chevron-left"></i></button>
-        <div class="slider-track" id="partnersTrack">
+        <div class="slider-track" id="partnersTrack"> -->
           <!-- Partner slides will be added dynamically -->
-        </div>
+        <!-- </div>
         <button class="arrow-btn arrow-right" id="partnersNext"><i class="fas fa-chevron-right"></i></button>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <!-- Clients Slider Section -->
-  <section class="slider-section">
+  <!-- <section class="slider-section">
     <div class="container">
       <h2 class="animate-on-scroll">OUR CLIENTS</h2>
       <div class="slider-container" id="clientsSlider">
         <button class="arrow-btn arrow-left" id="clientsPrev"><i class="fas fa-chevron-left"></i></button>
-        <div class="slider-track" id="clientsTrack">
+        <div class="slider-track" id="clientsTrack"> -->
           <!-- Client slides will be added dynamically -->
-        </div>
+        <!-- </div>
         <button class="arrow-btn arrow-right" id="clientsNext"><i class="fas fa-chevron-right"></i></button>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <script src = "javascript/aboutus.js"></script>
 </body>
