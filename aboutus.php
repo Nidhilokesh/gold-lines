@@ -52,7 +52,7 @@
         We are a premier end-to-end services provider and contractor specializing in serving the defense sector. Our extensive experience in dealing with this keystone sector provides us with the intrinsic expertise that gives us an edge. We bring the same attention to detail, strict adherence to project and service delivery ethics, and a commitment to quality and safety to the wider business world.
       </p>
       
-      <h2 class="animate-on-scroll" style="margin-top:40px;">Our Mission, Vision & Values</h2>
+      <!-- <h2 class="animate-on-scroll" style="margin-top:40px;">Our Mission, Vision & Values</h2> -->
       <div class="mvv-grid">
         <div class="mvv-card animate-on-scroll">
           <h3>Our Mission</h3>
