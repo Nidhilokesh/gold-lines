@@ -20,7 +20,7 @@
                 <h1>WE HELP YOU <span>HIT YOUR TARGET</span></h1>
                 <p>Comprehensive contracting solutions that transform your vision into reality across the Middle East.</p>
                 <div>
-                    <a href="#about" class="hero-cta">KNOW MORE</a>
+                    <a href="aboutus.php" class="hero-cta">KNOW MORE</a>
                     <a href="#services" class="hero-cta">OUR SERVICES</a>
                 </div>
             </div>
@@ -163,7 +163,7 @@
                         <i class="fas fa-concierge-bell"></i>
                     </div>
                     <div class="project-main-content">
-                        <h3>Dining Facility & dface Upgrade Services</h3>
+                        <h3>Dining Facility & Dface Upgrade Services</h3>
                     </div>
                     <div class="project-details">
                         <h4>Location: US Marines | Yanbu</h4>
