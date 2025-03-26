@@ -20,7 +20,7 @@
     <div class="hero-content container">
       <h1 class="animate-on-scroll">Golden Lines Contracting</h1>
       <p class="animate-on-scroll">
-        A premier end-to-end services provider and contractor specializing in serving the defense sector.
+        A premier end-to-end services provider and contractor.
         We bring unparalleled attention to detail, commitment to quality, and innovative solutions that transform challenges into success.
       </p>
       
@@ -49,7 +49,7 @@
         Established in 2021 as a wholly owned Saudi corporation, Golden Lines Contracting Co possesses extensive experience with a diverse body of work completed and projects executed for some of the most prestigious companies in the Kingdom of Saudi Arabia.
       </p>
       <p class="animate-on-scroll">
-        We are a premier end-to-end services provider and contractor specializing in serving the defense sector. Our extensive experience in dealing with this keystone sector provides us with the intrinsic expertise that gives us an edge. We bring the same attention to detail, strict adherence to project and service delivery ethics, and a commitment to quality and safety to the wider business world.
+         Our extensive experience in dealing with this keystone sector provides us with the intrinsic expertise that gives us an edge. We bring the same attention to detail, strict adherence to project and service delivery ethics, and a commitment to quality and safety to the wider business world.
       </p>
       
       <!-- <h2 class="animate-on-scroll" style="margin-top:40px;">Our Mission, Vision & Values</h2> -->
