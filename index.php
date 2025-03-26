@@ -63,25 +63,34 @@
                     </div>
                     <h3>Refrigeration & HVAC</h3>
                     <p>Delivering comfortably cool environments across indoor, outdoor and hybrid public places.</p>
-                    <a href="#" class="service-learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                    <a href="refregiration.php" class="service-learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
                 </div>
 
                 <div class="service-card fade-in">
                     <div class="service-icon">
-                        <i class="fas fa-heartbeat"></i>
+                        <i class="fas fa-heartbeat"></i> 
                     </div>
-                    <h3>Medical Equipment</h3>
-                    <p>Procuring mission critical medicines, supplies and equipment to clinics, hospitals and in-house departments.</p>
-                    <a href="#" class="service-learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                    <h3>Base Life and Support</h3>
+                    <p>Ensuring timely delivery of essential medicines, supplies, and equipment for critical care and life support.</p>
+                    <a href="baselife.php" class="service-learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
                 </div>
 
                 <div class="service-card fade-in">
                     <div class="service-icon">
-                        <i class="fas fa-network-wired"></i>
+                        <i class="fas fa-truck"></i>
                     </div>
-                    <h3>IT & Telecom</h3>
-                    <p>Digitally transforming environments and connecting businesses to the digital economy.</p>
-                    <a href="#" class="service-learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                    <h3>Logistic & Transport</h3>
+                    <p>Efficient and reliable logistics and transport solutions, ensuring seamless movement of goods, supplies, and equipment with precision and speed.</p>
+                    <a href="transport.php" class="service-learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="service-card fade-in">
+                    <div class="service-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>OSP Infrastructure Installation & Maintenance </h3>
+                    <p>Comprehensive OSP infrastructure installation and maintenance services, ensuring seamless connectivity, reliable network expansion, and long-term system efficiency.</p>
+                    <a href="osp.php" class="service-learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
 
