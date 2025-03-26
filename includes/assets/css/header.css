@@ -323,6 +323,8 @@ a {
   .dropdown__link, 
   .dropdown__sublink {
     padding-inline: 1rem 3.5rem;
+    white-space: nowrap; 
+
   }
 
   .dropdown__subitem .dropdown__link {

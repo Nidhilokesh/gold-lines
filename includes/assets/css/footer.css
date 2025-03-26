@@ -172,7 +172,7 @@ body {
 .underline{
     color: #C4A968;
     text-decoration: underline;
-    text-decoration-color: #C4A968; /* Optional, for gold underline */
+    text-decoration-color: #C4A968; 
     text-decoration-thickness: 1px;
     text-underline-offset: 5px;
     position: relative;
@@ -201,7 +201,7 @@ body {
   }
   
   .whatsapp-btn i {
-    font-size: 30px; /* Adjust icon size */
+    font-size: 30px; 
   }
   
 
@@ -238,6 +238,10 @@ body {
         justify-content: center;
     }
 
+    .contact-section p {
+        font-size: 0.8rem;
+    }
+
     .footer-bottom {
         flex-direction: column;
         text-align: center;
@@ -247,6 +251,10 @@ body {
     .section-heading::after {
         left: 50%;
         transform: translateX(-50%);
+    }
+
+    .copyright, .maintained-by {
+        font-size: 0.8rem;
     }
 
     .whatsapp-btn {

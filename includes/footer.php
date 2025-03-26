@@ -49,11 +49,12 @@
             <div class="footer-section">
                 <h3 class="section-heading">General  Services</h3>
                 <ul>
-                    <li><a href="#">Support Center</a></li>
-                    <li><a href="#">Consultation</a></li>
-                    <li><a href="#">Customer Care</a></li>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Resources</a></li>
+                    <li><a href="construction.php">Construction</a></li>
+                    <li><a href="infrasturcture.php">Infrastructure </a></li>
+                    <li><a href="#">Base Life Support Services</a></li>
+                    <li><a href="#">Refrigeration & HVAC</a></li>
+                    <li><a href="#">Logistic & Transportation </a></li>
+                    <li><a href="#">OSP Infrastructure Installation & Maintenance </a></li>
                 </ul>
             </div>
 

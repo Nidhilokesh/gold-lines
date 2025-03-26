@@ -101,25 +101,40 @@ $current_page = basename($_SERVER['PHP_SELF']);
                   <!--=============== DROPDOWN 2 ===============-->
                   <li class="dropdown__item">
                      <div class="nav__link">
-                        Other Services <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                        General Services <i class="ri-arrow-down-s-line dropdown__arrow"></i>
                      </div>
 
                      <ul class="dropdown__menu">
                         <li>
-                           <a href="#" class="dropdown__link">
-                               Profiles
+                            <a href="construction.php" class="dropdown__link <?= ($current_page == 'construction.php') ? 'active' : ''; ?>">
+                                Construction
                            </a>                          
                         </li>
 
                         <li>
-                           <a href="#" class="dropdown__link">
-                               Accounts
+                            <a href="infrasturcture.php" class="dropdown__link <?= ($current_page == 'infrasturcture.php') ? 'active' : ''; ?>">
+                                Infrastructure 
                            </a>
                         </li>
 
                         <li>
                            <a href="#" class="dropdown__link">
-                               Messages
+                                Base Life Support Services
+                           </a>
+                        </li>
+                        <li>
+                            <a href=".php" class="dropdown__link <?= ($current_page == '.php') ? 'active' : ''; ?>">
+                                Refrigeration & HVAC 
+                           </a>
+                        </li>
+                        <li>
+                            <a href=".php" class="dropdown__link <?= ($current_page == '.php') ? 'active' : ''; ?>">
+                                Logistic & Transportation  
+                           </a>
+                        </li>
+                        <li>
+                            <a href=".php" class="dropdown__link <?= ($current_page == '.php') ? 'active' : ''; ?>">
+                                OSP Infrastructure Installation & Maintenance   
                            </a>
                         </li>
                      </ul>
