@@ -118,22 +118,22 @@ $current_page = basename($_SERVER['PHP_SELF']);
                         </li>
 
                         <li>
-                           <a href="#" class="dropdown__link">
+                            <a href="baselife.php" class="dropdown__link <?= ($current_page == 'baselife.php') ? 'active' : ''; ?>">
                                 Base Life Support Services
                            </a>
                         </li>
                         <li>
-                            <a href=".php" class="dropdown__link <?= ($current_page == '.php') ? 'active' : ''; ?>">
+                            <a href="refregiration.php" class="dropdown__link <?= ($current_page == 'refregiration.php') ? 'active' : ''; ?>">
                                 Refrigeration & HVAC 
                            </a>
                         </li>
                         <li>
-                            <a href=".php" class="dropdown__link <?= ($current_page == '.php') ? 'active' : ''; ?>">
+                            <a href="transport.php" class="dropdown__link <?= ($current_page == 'transport.php') ? 'active' : ''; ?>">
                                 Logistic & Transportation  
                            </a>
                         </li>
                         <li>
-                            <a href=".php" class="dropdown__link <?= ($current_page == '.php') ? 'active' : ''; ?>">
+                            <a href="osp.php" class="dropdown__link <?= ($current_page == 'osp.php') ? 'active' : ''; ?>">
                                 OSP Infrastructure Installation & Maintenance   
                            </a>
                         </li>
