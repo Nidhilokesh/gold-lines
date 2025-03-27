@@ -34,10 +34,23 @@ body {
     display: flex;
     align-items: center;
     position: relative;
-    background-image: url('your-image-url.jpg'); /* Replace with your image URL */
+    margin-top: 3rem;
+    
+}
+
+.hero::before {
+    content: ""; /* Creates an empty element */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../images/hero.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    opacity: 0.25; /* Apply opacity to the background image only */
+    z-index: -1; /* Ensure the image stays behind the content */
 }
 
 

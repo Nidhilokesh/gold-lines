@@ -1,5 +1,5 @@
 /*=============== GOOGLE FONTS ===============*/
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
 
 /*=============== VARIABLES CSS ===============*/
 :root {
@@ -15,7 +15,7 @@
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
-  --body-font: "Montserrat", sans-serif;
+  --body-font: "Poppins", sans-serif;
   --normal-font-size: .938rem;
 
   /*========== Font weight ==========*/
@@ -58,7 +58,7 @@ a {
 }
 
 /*=============== REUSABLE CSS CLASSES ===============*/
-.container {
+.container1 {
   max-width: 1120px;
   margin-inline: 1.5rem;
 }
@@ -93,12 +93,15 @@ a {
 }
 
 .nav__logo {
-  display: inline-flex;
-  align-items: center;
-  column-gap: .25rem;
-  font-weight: var(--font-semi-bold);
-  /* Color highlighting when pressed on mobile devices */
-  /*-webkit-tap-highlight-color: transparent;*/
+  display: block;
+  width: 300px; 
+  height: 85px; 
+  background-image: url('../../../images/4.png'); 
+  background-size: contain; 
+  background-repeat: no-repeat;
+  background-position: center; 
+  margin-top: 8px;
+
 }
 
 .nav__logo i {
@@ -264,19 +267,25 @@ a {
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
-@media screen and (max-width: 340px) {
-  .container {
+@media screen and (max-width: 440px) {
+  .container1 {
     margin-inline: 1rem;
   }
 
   .nav__link {
     padding-inline: 1rem;
   }
+
+  .nav__logo{
+    width: 150px;
+    height: 70px;
+    margin-top: 0px;
+  }
 }
 
 /* For large devices */
 @media screen and (min-width: 1118px) {
-  .container {
+  .container1 {
     margin-inline: auto;
   }
 
@@ -328,7 +337,7 @@ a {
   }
 
   .dropdown__subitem .dropdown__link {
-    padding-inline: 1rem;
+    padding-inline: 1rem;  
     white-space: nowrap; 
   }
 

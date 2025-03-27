@@ -17,10 +17,9 @@ $current_page = basename($_SERVER['PHP_SELF']);
    <body>
       <!--=============== HEADER ===============-->
       <header class="header">
-         <nav class="nav container">
+         <nav class="nav container1">
             <div class="nav__data">
-               <a href="#" class="nav__logo">
-                  <i class="ri-planet-line"></i> Golden Lines
+               <a href="index.php" class="nav__logo">
                </a>
                
                <div class="nav__toggle" id="nav-toggle">

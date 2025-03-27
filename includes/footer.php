@@ -14,7 +14,7 @@
     <footer class="site-footer">
         <div class="footer-container">
             <div class="footer-section logo-section">
-                <img src="/api/placeholder/150/50" alt="Company Logo" class="company-logo">
+                <img src="../../images/logo.png" alt="Company Logo" class="company-logo">
                 <p>Duis cursus, mi quis viverra ornare, eros dolor interdum nulla ultmp erdiet.</p>
                 <div class="social-icons">
                     <a href="#" class="social-icon"><i class="ri-facebook-fill"></i></a>
@@ -60,9 +60,9 @@
 
             <div class="footer-section contact-section">
                 <h3 class="section-heading">Get In Touch</h3>
-                <p><i class="ri-phone-line"></i> +12023459999</p>
-                <p><i class="ri-mail-line"></i> supportvast@gmail.com</p>
-                <p><i class="ri-map-pin-line"></i> 3004 3 rd Ln, Los Angeles, Calnia, 11</p>
+                <p style=" white-space: nowrap; "><i class="ri-phone-line"></i> +966 56 697 7202</p>
+                <p><i class="ri-map-pin-line"></i> 7409 Al Hawary Street, Malaz, Riyadh, KSA</p>
+                <p><i class="ri-time-line"></i> Monday - Friday: 9:00 AM - 5:00 PM</p>
             </div>
         </div>
 
@@ -75,7 +75,7 @@
             </div>
         </div>
         
-        <a href="https://wa.me/1234567890" target="_blank" id="whatsapp-button" class="whatsapp-btn">
+        <a href="https://wa.me/966566977202" target="_blank" id="whatsapp-button" class="whatsapp-btn">
             <i class="ri-whatsapp-line"></i>
         </a>
 

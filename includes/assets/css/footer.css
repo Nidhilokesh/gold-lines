@@ -1,4 +1,3 @@
-/* styles.css */
 :root {
     --dark-bg: #000000;
     --contrast-color: #C4A968;
@@ -22,7 +21,7 @@ body {
 .site-footer {
     background-color: var(--dark-bg);
     color: var(--text-light);
-    padding: 4rem 2rem;
+    padding: 2rem 1.5rem;
 }
 
 .footer-container {
@@ -45,8 +44,8 @@ body {
 }
 
 .company-logo {
-    max-width: 150px;
-    margin-bottom: 1rem;
+    max-width: 220px;
+    margin-bottom: 0.5rem;
 }
 
 .logo-section p {
@@ -194,6 +193,7 @@ body {
     text-decoration: none;
     z-index: 1000;
     transition: transform 0.3s ease;
+    border:2px solid #000000;
   }
   
   .whatsapp-btn:hover {
@@ -219,6 +219,10 @@ body {
     .footer-section {
         margin-bottom: 0.5rem;
         text-align: left;
+    }
+
+    .company-logo {
+        max-width: 190px;
     }
 
     .footer-section ul li a {
@@ -254,10 +258,12 @@ body {
     }
 
     .copyright, .maintained-by {
-        font-size: 0.8rem;
+        font-size: 0.6rem;
     }
 
     .whatsapp-btn {
         font-size: 25px;
     }
 }
+
+
