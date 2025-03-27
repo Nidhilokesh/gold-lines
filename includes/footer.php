@@ -14,8 +14,8 @@
     <footer class="site-footer">
         <div class="footer-container">
             <div class="footer-section logo-section">
-                <img src="../../images/logo.png" alt="Company Logo" class="company-logo">
-                <p>Duis cursus, mi quis viverra ornare, eros dolor interdum nulla ultmp erdiet.</p>
+                <img src="../../images/logo1.png" alt="Company Logo" class="company-logo">
+                <p>Comprehensive contracting solutions that transform your vision into reality across the Middle East.</p>
                 <div class="social-icons">
                     <a href="#" class="social-icon"><i class="ri-facebook-fill"></i></a>
                     <a href="#" class="social-icon"><i class="ri-twitter-fill"></i></a>
@@ -27,16 +27,16 @@
             <div class="footer-section">
                 <h3 class="section-heading">Company</h3>
                 <ul>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                    <li><a href="#">Core Services</a></li>
-                    <li><a href="#">Our Team</a></li>
-                    <li><a href="#">Pricing Plan</a></li>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="aboutus.php">About Us</a></li>
+                    <li><a href="#">Data Services</a></li>
+                    <li><a href="#">General Services</a></li>
+                    <li><a href="contact.php">Contact Us</a></li>
                 </ul>
             </div>
 
             <div class="footer-section">
-                <h3 class="section-heading">Useful Links</h3>
+                <h3 class="section-heading">Data Services</h3>
                 <ul>
                     <li><a href="#">Contact Us</a></li>
                     <li><a href="#">Privacy Policy</a></li>
@@ -51,10 +51,10 @@
                 <ul>
                     <li><a href="construction.php">Construction</a></li>
                     <li><a href="infrasturcture.php">Infrastructure </a></li>
-                    <li><a href="#">Base Life Support Services</a></li>
-                    <li><a href="#">Refrigeration & HVAC</a></li>
-                    <li><a href="#">Logistic & Transportation </a></li>
-                    <li><a href="#">OSP Infrastructure Installation & Maintenance </a></li>
+                    <li><a href="baselife.php">Base Life Support Services</a></li>
+                    <li><a href="refregiration.php">Refrigeration & HVAC</a></li>
+                    <li><a href="transport.php">Logistic & Transportation </a></li>
+                    <li><a href="osp.php">OSP Infrastructure Installation & Maintenance </a></li>
                 </ul>
             </div>
 

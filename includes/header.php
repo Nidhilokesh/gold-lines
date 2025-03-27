@@ -52,44 +52,44 @@ $current_page = basename($_SERVER['PHP_SELF']);
                            <ul class="dropdown__submenu">
                               <li>
                                  <a href="#" class="dropdown__sublink">
-                                    <i class="ri-file-list-line"></i> Documents
+                                    Dedicated Internet Access 
                                  </a>
                               </li>
       
                               <li>
                                  <a href="#" class="dropdown__sublink">
-                                    <i class="ri-cash-line"></i> Payments
+                                    WI-FI Solution
                                  </a>
                               </li>
       
                               <li>
                                  <a href="#" class="dropdown__sublink">
-                                    <i class="ri-refund-2-line"></i> Refunds
+                                    IPVPN (L3 and L2)
                                  </a>
                               </li>
                            </ul>
                         </li>
                         <li class="dropdown__subitem">
                            <div class="dropdown__link">
-                               Cloud Services  <i class="ri-add-line dropdown__add"></i>
+                               ICT Services  <i class="ri-add-line dropdown__add"></i>
                            </div>
 
                            <ul class="dropdown__submenu">
                               <li>
                                  <a href="#" class="dropdown__sublink">
-                                     Documents
+                                     ICT Solutions
                                  </a>
                               </li>
       
                               <li>
                                  <a href="#" class="dropdown__sublink">
-                                     Payments
+                                    Cloud Services
                                  </a>
                               </li>
       
                               <li>
                                  <a href="#" class="dropdown__sublink">
-                                    Refunds
+                                    Networking, CCTV & LED screens
                                  </a>
                               </li>
                            </ul>
@@ -139,7 +139,11 @@ $current_page = basename($_SERVER['PHP_SELF']);
                      </ul>
                   </li>
 
-                  <li><a href="contact.php" class="nav__link <?= ($current_page == 'contact.php') ? 'active' : ''; ?>">Contact Us</a></li>
+                  <li>
+                     <a href="contact.php" class="nav__link <?= ($current_page == 'contact.php') ? 'active' : ''; ?>">
+                        Contact Us
+                     </a>
+                  </li>
 
                </ul>
             </div>
