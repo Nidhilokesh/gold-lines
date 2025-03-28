@@ -51,19 +51,19 @@ $current_page = basename($_SERVER['PHP_SELF']);
 
                            <ul class="dropdown__submenu">
                               <li>
-                                 <a href="#" class="dropdown__sublink">
+                                 <a href="DIA.php" class="dropdown__sublink"  <?= ($current_page == 'DIA.php') ? 'active' : '';?>>
                                     Dedicated Internet Access 
                                  </a>
                               </li>
       
                               <li>
-                                 <a href="#" class="dropdown__sublink">
+                                 <a href="wi-fi.php" class="dropdown__sublink"  <?= ($current_page == 'wi-fi.php') ? 'active' : '';?>>
                                     WI-FI Solution
                                  </a>
                               </li>
       
                               <li>
-                                 <a href="#" class="dropdown__sublink">
+                                 <a href="ipvpn.php" class="dropdown__sublink"  <?= ($current_page == 'ipvpn.php') ? 'active' : '';?>>
                                     IPVPN (L3 and L2)
                                  </a>
                               </li>
