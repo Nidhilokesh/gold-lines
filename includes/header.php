@@ -76,19 +76,19 @@ $current_page = basename($_SERVER['PHP_SELF']);
 
                            <ul class="dropdown__submenu">
                               <li>
-                                 <a href="#" class="dropdown__sublink">
+                                 <a href="ict.php" class="dropdown__sublink"  <?= ($current_page == 'ict.php') ? 'active' : '';?>>
                                      ICT Solutions
                                  </a>
                               </li>
       
                               <li>
-                                 <a href="#" class="dropdown__sublink">
-                                    Cloud Services
+                                 <a href="cloud.php" class="dropdown__sublink"  <?= ($current_page == 'cloud.php') ? 'active' : '';?>>
+                                 Cloud Services
                                  </a>
                               </li>
       
                               <li>
-                                 <a href="#" class="dropdown__sublink">
+                                 <a href="network.php" class="dropdown__sublink"  <?= ($current_page == 'network.php') ? 'active' : '';?>>
                                     Networking, CCTV & LED screens
                                  </a>
                               </li>
