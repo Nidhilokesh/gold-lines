@@ -6,10 +6,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Golden Lines</title>
+    <title>Golden Lines - Contact Us</title>
     <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .services-section {
+            background-color: var(--bg-tertiary);
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .services-section h3 {
+            color: var(--accent-color);
+            margin-bottom: 15px;
+        }
+        .service-group {
+            display: flex;
+            flex-direction: column;
+        }
+        .service-group label {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+        .service-group input[type="checkbox"] {
+            margin-right: 10px;
+            accent-color: var(--accent-color);
+        }
+        .nested-services {
+            margin-left: 30px;
+            display: none;
+        }
+        .service-group input[type="checkbox"]:checked + .nested-services {
+            display: block;
+        }
+    </style>
 </head>
 <body>
     <div class="contact-container">
@@ -28,10 +61,17 @@
                     </div>
                 </div>
                 <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <strong>Phone Number</strong>
+                        <p>+966 56 697 7202</p>
+                    </div>
+                </div>
+                <div class="info-item">
                     <i class="fas fa-envelope"></i>
                     <div>
-                        <strong>Phone No</strong>
-                        <p>+966 56 697 7202</p>
+                        <strong>Email Address</strong>
+                        <p>info@goldenlines.com</p>
                     </div>
                 </div>
                 <div class="info-item">
@@ -42,12 +82,11 @@
                     </div>
                 </div>
                 
-                <!-- New Map Section -->
                 <div class="map-container">
                     <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3625.550135909054!2d46.7290336!3d24.6736085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f0413505d950b%3A0x3cc1e68e5c587094!2s7409%20Al%20Hawwari%2C%20Al%20Malaz%2C%20Riyadh%2012831%2C%20Saudi%20Arabia!5e0!3m2!1sen!2sin!4v1742972065877!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3625.550135909054!2d46.7290336!3d24.6736085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f0413505d950b%3A0x3cc1e68e5c587094!2s7409%20Al%20Hawwari%2C%20Al%20Malaz%2C%20Riyadh%2012831%2C%20Saudi%20Arabia!5e0!3m2!1sen!2sin!4v1742972065877!5m2!1sen!2sin" 
                         width="100%"
-                        height="100"
+                        height="250"
                         style="border:0;"
                         allowfullscreen=""
                         loading="lazy"
@@ -71,13 +110,71 @@
                     <input type="tel" name="phone" placeholder="Phone Number">
                 </div>
                 
-                <div class="form-group">
-                    <select name="service" required>
-                        <option value="">Select a Service</option>
-                        <option value="General Services">General Services</option>
-                        <option value="Data Services">Data Services</option>
-                        <option value="other Services">Other Services</option>
-                    </select>
+                <div class="services-section">
+                    <h3>Select Services</h3>
+                    <div class="service-group">
+                        <label>
+                            <input type="checkbox" name="services[]" value="General Services"> General Services
+                            <div class="nested-services">
+                                <label>
+                                    <input type="checkbox" name="services[]" value="Construction"> Construction
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="services[]" value="Infrastructure"> Infrastructure
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="services[]" value="Refrigeration & HVAC"> Refrigeration & HVAC
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="services[]" value="Base Life and Support"> Base Life and Support
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="services[]" value="Logistic & Transport"> Logistic & Transport
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="services[]" value="OSP Infrastructure Installation & Maintenance"> OSP Infrastructure Installation & Maintenance
+                                </label>
+                            </div>
+                        </label>
+                        
+                        <label>
+                            <input type="checkbox" name="services[]" value="Data Services"> Data Services
+                            <div class="nested-services">
+                                <label>
+                                    <input type="checkbox" name="services[]" value="IT and Telecom Services"> IT and Telecom Services
+                                    <div class="nested-services">
+                                        <label>
+                                            <input type="checkbox" name="services[]" value="Dedicated Internet Access"> Dedicated Internet Access
+                                        </label>
+                                        <label>
+                                            <input type="checkbox" name="services[]" value="Wifi Solution"> Wifi Solution
+                                        </label>
+                                        <label>
+                                            <input type="checkbox" name="services[]" value="IPVPN (L3 and L2)"> IPVPN (L3 and L2)
+                                        </label>
+                                    </div>
+                                </label>
+                                
+                                <label>
+                                    <input type="checkbox" name="services[]" value="ICT Services"> ICT Services
+                                    <div class="nested-services">
+                                        <label>
+                                            <input type="checkbox" name="services[]" value="ICT Solution"> ICT Solution
+                                        </label>
+                                        <label>
+                                            <input type="checkbox" name="services[]" value="Cloud Services"> Cloud Services
+                                        </label>
+                                        <label>
+                                            <input type="checkbox" name="services[]" value="Networking"> Networking
+                                        </label>
+                                        <label>
+                                            <input type="checkbox" name="services[]" value="CCTV & LED Screens"> CCTV & LED Screens
+                                        </label>
+                                    </div>
+                                </label>
+                            </div>
+                        </label>
+                    </div>
                 </div>
                 
                 <div class="form-group">

@@ -17,12 +17,23 @@ document.addEventListener('DOMContentLoaded', function() {
     contactForm.addEventListener('submit', function(e) {
         e.preventDefault();
 
+        // Collect selected services
+        const selectedServices = Array.from(
+            contactForm.querySelectorAll('input[name="services[]"]:checked')
+        ).map(checkbox => checkbox.value);
+
         // Disable submit button during submission
         const submitBtn = contactForm.querySelector('.submit-btn');
         submitBtn.disabled = true;
         submitBtn.textContent = 'Sending...';
 
         const formData = new FormData(contactForm);
+        
+        // Add selected services to form data
+        formData.delete('services[]');
+        selectedServices.forEach(service => {
+            formData.append('services[]', service);
+        });
 
         fetch('process.php', {
             method: 'POST',
@@ -30,7 +41,6 @@ document.addEventListener('DOMContentLoaded', function() {
         })
         .then(response => response.json())
         .then(data => {
-            // Changed to check 'status' instead of 'success'
             if (data.status === 'success') {
                 showAlert('success', data.message);
                 contactForm.reset(); // Clear form fields
