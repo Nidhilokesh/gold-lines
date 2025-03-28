@@ -101,6 +101,32 @@
     </section>
 
     <!-- Featured Projects Section -->
+    <section class="logoMarqueeSection">
+	<div class="container" id="logoMarqueeSection">
+		<div class="default-content-container flex items-center">
+			<div class="default-content-container-inner marquee-wrapper relative overflow-hidden inline-block">
+				<div class="marquee" style="animation-duration: 15s;">
+					<a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/calvin-klein.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+					<a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/tiktok-logo.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+					<a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/ngk-3.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+					<a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/asus-rog-1.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+					<a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/nippon-sanso.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+					<a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/comdisco.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+					<a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/nextra-3.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+				</div>
+                <div class="marquee" style="animation-duration: 15s;">
+                    <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/calvin-klein.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+					<a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/tiktok-logo.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+					<a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/ngk-3.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+					<a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/asus-rog-1.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+					<a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/nippon-sanso.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+					<a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/comdisco.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+					<a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/nextra-3.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
     
 
     <script src = "javascript/index.js" ></script>

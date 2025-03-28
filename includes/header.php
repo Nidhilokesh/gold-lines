@@ -92,6 +92,11 @@ $current_page = basename($_SERVER['PHP_SELF']);
                                     Networking, CCTV & LED screens
                                  </a>
                               </li>
+                              <li>
+                                 <a href="nutshell.php" class="dropdown__sublink"  <?= ($current_page == 'nutshell.php') ? 'active' : '';?>>
+                                    Services Part in Nutshell
+                                 </a>
+                              </li>
                            </ul>
                         </li>
                      </ul>

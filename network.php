@@ -6,14 +6,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ITC Services - Cabling and Networking Works</title>
+    <title>ITC Services -Networking, CCTV & LED screens</title>
     <link rel="stylesheet" href="css/ict-services.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <section class="itc-services-section fade-in">
         <div class="section-header">
-            <h2>Cabling and Networking Works</h2>
+            <h2>Networking, CCTV & LED screens</h2>
         </div>
         
         <div class="itc-services-container">

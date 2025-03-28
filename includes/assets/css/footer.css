@@ -12,12 +12,6 @@
     box-sizing: border-box;
 }
 
-/* body {
-    font-family: 'Inter', sans-serif;
-    line-height: 1.6;
-    background-color: var(--dark-bg);
-} */
-
 .site-footer {
     background-color: var(--dark-bg);
     color: var(--text-light);
@@ -178,6 +172,7 @@
     text-underline-offset: 5px;
     position: relative;
 }
+
 /* WhatsApp button */
 .whatsapp-btn {
     position: fixed;
