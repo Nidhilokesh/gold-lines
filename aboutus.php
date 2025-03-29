@@ -70,6 +70,21 @@
     </div>
   </section>
 
+  <!-- Featured Projects Section -->
+  <div class="partners">
+    <h2>OUR PARTNERS</h2>
+  </div>
+
+  <div class="logo-container">
+    <img src="images/client1.jpg" alt="Partner 1">
+    <img src="images/client2.png" alt="Partner 2">
+    <img src="images/client3.png" alt="Partner 3">
+    <img src="images/client4.jpg" alt="Partner 4">
+    <img src="images/client5.png" alt="Partner 5">
+    <img src="images/client6.png" alt="Partner 6">
+  </div>
+
+
   <!-- Leadership Section -->
   <section class="leadership">
     <div class="container">

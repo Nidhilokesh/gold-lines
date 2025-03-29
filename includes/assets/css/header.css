@@ -169,13 +169,19 @@ a {
     background-color: var(--black-color);
     padding-top: 1rem;
   }
+  .nav__logo{
+    width: 150px;
+    height: 70px;
+    margin-top: 0px;
+  }
 }
+
 
 .nav__link {
   color: var(--white-color);
   background-color: var(--black-color);
   font-weight: var(--font-semi-bold);
-  padding: 1.25rem 1.5rem;
+  padding: 1rem 1.25rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -272,14 +278,21 @@ a {
     margin-inline: 1rem;
   }
 
-  .nav__link {
-    padding-inline: 1rem;
-  }
-
   .nav__logo{
     width: 150px;
     height: 70px;
     margin-top: 0px;
+  }
+
+  .nav__link {
+    padding: 0.75rem 1rem;
+    font-size: 14px;
+  }
+
+  .dropdown__link, 
+  .dropdown__sublink {
+    padding: 0.75rem 1rem 0.75rem 1rem;
+    font-size: 14px;
   }
 }
 
