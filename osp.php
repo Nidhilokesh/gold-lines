@@ -21,7 +21,7 @@
             <p class="fade-in">Our company excels in delivering comprehensive OSP (Outside Plant) infrastructure services, showcasing our expertise in designing, installing, and maintaining advanced telecommunications networks. We specialize in civil work, including trenching, ducting, and manhole construction, ensuring robust and reliable infrastructure.</p>
             <div>
                 <a href="#service-details" class="hero-cta fade-in">Our Services</a>
-                <a href="#contact" class="hero-cta fade-in">Contact Us</a>
+                <a href="contact.php" class="hero-cta fade-in">Contact Us</a>
             </div>
         </div>
     </section>
@@ -55,7 +55,7 @@
     <section class="service-focus fade-in" id="contact">
         <h2 class="fade-in">Let's Get Started</h2>
         <p class="fade-in">Contact us today for a comprehensive consultation on your OSP infrastructure needs. Our expert team is ready to deliver cutting-edge telecommunications network solutions tailored to your project requirements.</p>
-        <a href="#" class="explore-services-btn fade-in">Contact Us</a>
+        <a href="contact.php" class="explore-services-btn fade-in">Contact Us</a>
     </section>
 
     <script>
