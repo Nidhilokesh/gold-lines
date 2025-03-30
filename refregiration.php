@@ -12,6 +12,18 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
+    <style>
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/reff.jpg') no-repeat center center/cover;
+            color: var(--text-white);
+            text-align: center;
+            padding: 120px 15px;
+            position: relative;
+            overflow: hidden;
+        }
+    </style>
+
 </head>
 <body>
     <!-- Hero Section -->
@@ -21,7 +33,7 @@
             <p class="fade-in">We offer turnkey specialized refrigeration and HVAC services for wide-ranging industries and project types. Whether it be creating your development's vision from ideation to completion or providing support and unique insight to keep your facilities and assets cool and comfortable, we serve a broad spectrum of customers and businesses.</p>
             <div>
                 <a href="#service-details" class="hero-cta fade-in">Our Services</a>
-                <a href="#contact" class="hero-cta fade-in">Contact Us</a>
+                <a href="contact.php" class="hero-cta fade-in">Contact Us</a>
             </div>
         </div>
     </section>
@@ -94,7 +106,7 @@
     <section class="service-focus fade-in" id="contact">
         <h2 class="fade-in">Let's Get Started</h2>
         <p class="fade-in">Contact us for a no-obligation consultation today, where our knowledgeable staff will be more than happy to assist you with the cooling and refrigeration needs of your project.</p>
-        <a href="#" class="explore-services-btn fade-in">Contact Us</a>
+        <a href="contact.php" class="explore-services-btn fade-in">Contact Us</a>
     </section>
 
     <script>

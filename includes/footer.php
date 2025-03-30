@@ -29,8 +29,6 @@
                 <ul>
                     <li><a href="index.php">Home</a></li>
                     <li><a href="aboutus.php">About Us</a></li>
-                    <li><a href="#">Data Services</a></li>
-                    <li><a href="#">General Services</a></li>
                     <li><a href="contact.php">Contact Us</a></li>
                 </ul>
             </div>
@@ -38,11 +36,13 @@
             <div class="footer-section">
                 <h3 class="section-heading">Data Services</h3>
                 <ul>
-                    <li><a href="#">Contact Us</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">App Download</a></li>
-                    <li><a href="#">How It Works</a></li>
-                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="DIA.php">DIA</a></li>
+                    <li><a href="wi-fi.php">Wi-Fi Solutions</a></li>
+                    <li><a href="ipvpn.php">IPVPN(L3 and L2)</a></li>
+                    <li><a href="ict.php">ICT Solutions</a></li>
+                    <li><a href="cloud.php">Cloud Services</a></li>
+                    <li><a href="network.php">Networking, CCTV & LED screens</a></li>
+                    <li><a href="nutshell.php">Services part in Nutshell</a></li>
                 </ul>
             </div>
 

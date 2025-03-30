@@ -11,36 +11,247 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
+        /* Keep original colors and variables from your code */
+      
+
+        /* Add margin to account for fixed header */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Container styling with margin-top to prevent header overlap */
+        .contact-container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 80px auto 20px auto; /* Added top margin to prevent header overlap */
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        /* Wrapper for layout */
+        .contact-wrapper {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        /* Contact info section */
+        .contact-info {
+            background-color: var(--bg-tertiary);
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-info h2 {
+            color: var(--accent-color);
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
+        .info-item {
+            display: flex;
+            margin-bottom: 20px;
+            align-items: flex-start;
+        }
+
+        .info-item i {
+            min-width: 30px;
+            color: var(--accent-color);
+            margin-right: 15px;
+            font-size: 18px;
+            margin-top: 3px;
+        }
+
+        .info-item div {
+            flex: 1;
+        }
+
+        .info-item strong {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .info-item p {
+            margin: 0;
+        }
+
+        .map-container {
+            margin-top: 25px;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        /* Form section */
+        .contact-form {
+            background-color: #2a2a2a;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-form h2 {
+            color: var(--accent-color);
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+
+        .form-group textarea {
+            height: 120px;
+            resize: vertical;
+        }
+
+        .submit-btn {
+            background-color: var(--accent-color);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            width: 100%;
+            transition: background-color 0.3s;
+        }
+
+        .submit-btn:hover {
+            background-color: #c09a27;
+        }
+
+        /* Services section - keeping original styles */
         .services-section {
             background-color: var(--bg-tertiary);
             padding: 20px;
             border-radius: 10px;
             margin-bottom: 20px;
         }
+        
         .services-section h3 {
             color: var(--accent-color);
             margin-bottom: 15px;
+            margin-top: 0;
         }
+        
         .service-group {
             display: flex;
             flex-direction: column;
         }
+        
         .service-group label {
             display: flex;
+            flex-wrap: wrap;
             align-items: center;
             margin-bottom: 10px;
             cursor: pointer;
         }
+        
         .service-group input[type="checkbox"] {
             margin-right: 10px;
             accent-color: var(--accent-color);
+            min-width: 18px;
+            height: 18px;
         }
+        
         .nested-services {
             margin-left: 30px;
             display: none;
+            width: 100%;
         }
-        .service-group input[type="checkbox"]:checked + .nested-services {
+        
+        input[type="checkbox"]:checked ~ .nested-services {
             display: block;
+        }
+
+        /* Form message */
+        .form-message {
+            margin-top: 20px;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        /* Responsive adjustments */
+        @media (min-width: 768px) {
+            .contact-wrapper {
+                flex-direction: row;
+            }
+            
+            .contact-info {
+                flex: 1;
+            }
+            
+            .contact-form {
+                flex: 1.5;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .contact-container {
+                padding: 15px;
+                margin-top: 60px; /* Adjust for smaller header on mobile */
+            }
+            
+            .info-item {
+                font-size: 15px;
+            }
+            
+            .submit-btn {
+                padding: 10px 20px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .contact-container {
+                padding: 10px;
+            }
+            
+            .contact-info, .contact-form {
+                padding: 15px;
+            }
+            
+            .info-item i {
+                min-width: 25px;
+                font-size: 16px;
+            }
+            
+            .service-group label {
+                font-size: 15px;
+            }
+            
+            .nested-services {
+                margin-left: 20px;
+            }
+        }
+
+        @media (max-width: 320px) {
+            .contact-container {
+                padding: 5px;
+                min-width: 320px; /* Ensures minimum width */
+            }
+            
+            .info-item {
+                flex-direction: column;
+            }
+            
+            .info-item i {
+                margin-bottom: 5px;
+            }
         }
     </style>
 </head>
@@ -189,6 +400,52 @@
     </div>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="javascript/contact.js"></script>
+    
+    <script>
+        // JavaScript to enhance checkbox functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            // Function to handle page load and adjust top margin based on header height
+            function adjustForHeader() {
+                // Get the header height dynamically (assuming header has some identifier)
+                const header = document.querySelector('header') || document.getElementById('header');
+                if (header) {
+                    const headerHeight = header.offsetHeight;
+                    // Add some extra padding to be safe
+                    document.querySelector('.contact-container').style.marginTop = (headerHeight + 20) + 'px';
+                }
+            }
+            
+            // Call on page load
+            adjustForHeader();
+            
+            // Also call on window resize
+            window.addEventListener('resize', adjustForHeader);
+            
+            // Fix for nested checkboxes display
+            const parentCheckboxes = document.querySelectorAll('.service-group > label > input[type="checkbox"]');
+            
+            parentCheckboxes.forEach(checkbox => {
+                checkbox.addEventListener('change', function() {
+                    const nestedServices = this.closest('label').querySelector('.nested-services');
+                    if (nestedServices) {
+                        nestedServices.style.display = this.checked ? 'block' : 'none';
+                    }
+                });
+            });
+            
+            // Handle second level nested checkboxes
+            const secondLevelCheckboxes = document.querySelectorAll('.nested-services > label > input[type="checkbox"]');
+            
+            secondLevelCheckboxes.forEach(checkbox => {
+                checkbox.addEventListener('change', function() {
+                    const deepNestedServices = this.closest('label').querySelector('.nested-services');
+                    if (deepNestedServices) {
+                        deepNestedServices.style.display = this.checked ? 'block' : 'none';
+                    }
+                });
+            });
+        });
+    </script>
 </body>
 </html>
 <?php

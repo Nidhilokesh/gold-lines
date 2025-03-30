@@ -38,7 +38,7 @@
                     </div>                    
                 </div>
                 <div class="itc-services-image">
-                    <img src="https://png.pngtree.com/thumb_back/fh260/background/20230702/pngtree-3d-rendered-abstract-tech-background-with-a-dark-theme-image_3739440.jpg" alt="Cloud Infrastructure Illustration">
+                    <img src="images/cloud.png" alt="Cloud Infrastructure Illustration">
                 </div>
             </div>
         </div>
@@ -46,7 +46,7 @@
         <div class="itc-services-container" >
             <div class="itc-services-content">
                 <div class="itc-services-image">
-                    <img src="https://png.pngtree.com/thumb_back/fh260/background/20230702/pngtree-3d-rendered-abstract-tech-background-with-a-dark-theme-image_3739440.jpg" alt="Cloud Infrastructure Illustration">
+                    <img src="images/paas.png" alt="Cloud Infrastructure Illustration">
                 </div>
                 <div class="itc-services-text">
                     <h3>Platform as a Service (PaaS)</h3>
@@ -75,7 +75,7 @@
                     </div>
                 </div>
                 <div class="itc-services-image">
-                    <img src="https://png.pngtree.com/thumb_back/fh260/background/20230702/pngtree-3d-rendered-abstract-tech-background-with-a-dark-theme-image_3739440.jpg" alt="Cloud Infrastructure Illustration">
+                    <img src="images/store.png" alt="Cloud Infrastructure Illustration">
                 </div>
             </div>
         </div>
