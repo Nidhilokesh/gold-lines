@@ -24,7 +24,7 @@
                         <p>GOLDEN LINES COMPANY GLC prides itself in providing the next Gen smart IT solution, with a solid reputation of quality and reliability, providing a wide array of services to individuals and businesses. We do it with the utmost discretion and professionalism. ISO 9001-2008 certified that capable of meeting all IT-related needs to your satisfaction. We provide our clients with the most reliable and stable environment with telecommunications and IT End-to-End solutions such as cabling & networking work, Firewalls, Infrastructure, etc.</p>   
                 </div>
                 <div class="itc-services-image">
-                    <img src="https://png.pngtree.com/thumb_back/fh260/background/20230702/pngtree-3d-rendered-abstract-tech-background-with-a-dark-theme-image_3739440.jpg" alt="Cloud Infrastructure Illustration">
+                    <img src="images/net.jpg" alt="Cloud Infrastructure Illustration">
                 </div>
             </div>
         </div>
@@ -32,7 +32,7 @@
         <div class="itc-services-container">
             <div class="itc-services-content">
                 <div class="itc-services-image">
-                    <img src="https://png.pngtree.com/thumb_back/fh260/background/20230702/pngtree-3d-rendered-abstract-tech-background-with-a-dark-theme-image_3739440.jpg" alt="Cloud Infrastructure Illustration">
+                    <img src="images/cctv.jpg" alt="Cloud Infrastructure Illustration">
                 </div>
                 <div class="itc-services-text">
                     <h3>CCTV Cameras</h3>
@@ -55,7 +55,7 @@
                     </p> 
                 </div>
                 <div class="itc-services-image">
-                    <img src="https://png.pngtree.com/thumb_back/fh260/background/20230702/pngtree-3d-rendered-abstract-tech-background-with-a-dark-theme-image_3739440.jpg" alt="Cloud Infrastructure Illustration">
+                    <img src="images/led.jpg" alt="Cloud Infrastructure Illustration">
                 </div>
             </div>
         </div>
