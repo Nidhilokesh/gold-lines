@@ -659,7 +659,7 @@ body {
     }
 
     div.marquee>a>img {
-        height: 50px;
+        height: 70px;
     }
 
     .marquee a {
@@ -667,8 +667,8 @@ body {
     }
 
     .logoMarqueeSection {
-        padding-top: 15px;
-        padding-bottom: 15px;
+        padding-top: 25px;
+        padding-bottom: 25px;
     }
 
     .marqueelogo#big {
