@@ -84,25 +84,111 @@
                     <a href="transport.php" class="service-learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
                 </div>
 
-                <div class="service-card fade-in">
+                <!-- <div class="service-card fade-in">
                     <div class="service-icon">
                         <i class="fas fa-tools"></i>
                     </div>
                     <h3>OSP Infrastructure Installation & Maintenance </h3>
                     <p>Comprehensive OSP infrastructure installation and maintenance services, ensuring seamless connectivity, reliable network expansion, and long-term system efficiency.</p>
                     <a href="osp.php" class="service-learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
-                </div>
+                </div> -->
             </div>
 
             <div class="explore-services fade-in">
-                <a href="#" class="explore-services-btn">EXPLORE ALL OUR SERVICES</a>
+                <a href="osp.php" class="explore-services-btn">EXPLORE ALL OUR SERVICES</a>
             </div>
         </div>
     </section>
 
     <!-- Featured Projects Section -->
-    <div class="partners">
-            <h2>OUR PARTNERS</h2>
+    <section class="featured-projects" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>Data <span> Services</span></h2>
+                
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-main-content">
+                        <div class="project-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <h3>Dedicated Internet Acess</h3>
+                    </div>
+                    <div class="project-details">
+                        <h4>High Speed Connectivity| Secure communication</h4>
+                        <p>Golden Lines Company delivers high-speed, secure Dedicated Internet Access (DIA) tailored for enterprises seeking unparalleled network performance and reliability.</p>
+                        <a href="DIA.php" class="service-learn-more">Learn More <i class="fas fa-caret-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-main-content">
+                        <div class="project-icon">
+                            <i class="fas fa-wifi"></i>
+                        </div>
+                        <h3>Wifi solutions</h3>
+                    </div>
+                    <div class="project-details">
+                        <h4>Robust| High performance</h4>
+                        <p>GLC offers an extensive Wi-Fi solution that empowers indoor and outdoor devices to connect to the internet and communicate wirelessly within a specific range</p>
+                        <a href="wi-fi.php" class="service-learn-more">Learn More <i class="fas fa-caret-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-main-content">
+                        <div class="project-icon">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <h3>IPVPN Services</h3>
+                    </div>
+                    <div class="project-details">
+                        <h4>Reduced Latency| Efficient Traffic Routing</h4>
+                        <p>GLC offers cutting-edge IPVPN services designed to transform your network infrastructure with Layer 3 and Layer 2 VPN solutions.</p>
+                        <a href="ipvpn.php" class="service-learn-more">Learn More <i class="fas fa-caret-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-main-content">
+                        <div class="project-icon">
+                            <i class="fas fa-cloud-upload-alt"></i>
+                        </div>
+                        <h3>Cloud Services</h3>
+                    </div>
+                    <div class="project-details">
+                        <h4>Iaas | Paas</h4>
+                        <p>Our Compute services offer server virtualization for various Windows and Linux-based computing solutions. Virtual Machines (VMs) represent various on-demand scalable computing resources within the Saudi Cloud.</p>
+                        <a href="cloud.php" class="service-learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-main-content">
+                        <div class="project-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3>ICT Services</h3>
+                    </div>
+                    <div class="project-details">
+                        <h4>Real-time Customized Dashboards | Productivity</h4>
+                        <p>GLC is your strategic partner in delivering advanced Information and Communications Technology (ICT) solutions, tailor-made to empower businesses across Saudi Arabia.</p>
+                        <a href="ict.php" class="service-learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="explore-projects">
+                <a href="network.php" class="explore-projects-btn">EXPLORE ALL DATA SERVICES</a>
+            </div>
+        </div>
+    </section>
+    
+
+    <div class="section-header">
+        <h2>Our <span>Partners</span></h2>
+                
     </div>
 
     <section class="logoMarqueeSection">
