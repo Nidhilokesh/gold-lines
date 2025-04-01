@@ -416,9 +416,9 @@ body {
     object-fit: contain;
 }
 
-.marqueelogo#big {
+/* .marqueelogo#big {
     width:20rem;
-}
+} */
 
   @keyframes marquee {
       0% {
