@@ -49,8 +49,8 @@
 
 ul {
   list-style: none;
-  /* Color highlighting when pressed on mobile devices */
-  /*-webkit-tap-highlight-color: transparent;*/
+  /* Enable tap highlight for iOS */
+  -webkit-tap-highlight-color: rgba(0,0,0,0.1);
 }
 
 a {
@@ -72,6 +72,7 @@ a {
   background-color: var(--black-color);
   box-shadow: 0 2px 16px hsla(220, 32%, 8%, .3);
   z-index: var(--z-fixed);
+  -webkit-overflow-scrolling: touch; /* Improved scrolling on iOS */
 }
 
 /*=============== NAV ===============*/
@@ -101,7 +102,6 @@ a {
   background-repeat: no-repeat;
   background-position: center; 
   margin-top: 8px;
-
 }
 
 .nav__logo i {
@@ -114,6 +114,7 @@ a {
   position: relative;
   width: 32px;
   height: 32px;
+  cursor: pointer; /* Add cursor pointer for better touch feedback */
 }
 
 .nav__burger, 
@@ -126,6 +127,7 @@ a {
   font-size: 1.25rem;
   cursor: pointer;
   transition: opacity .1s, transform .4s;
+  -webkit-tap-highlight-color: transparent; /* Remove highlight on tap */
 }
 
 .nav__close {
@@ -139,6 +141,7 @@ a {
     color: #C4A968; 
     transition: color 0.3s ease-in-out;
 }
+
 /* Active Link */
 .nav__link.active,
 .dropdown__link.active,
@@ -152,27 +155,55 @@ a {
 /* Navigation for mobile devices */
 @media screen and (max-width: 1118px) {
   .nav__menu {
-    position: absolute;
+    position: fixed; /* Change from absolute to fixed for iOS */
     left: 0;
     top: 2.5rem;
     width: 100%;
     height: calc(100vh - 3.5rem);
-    overflow: auto;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch; /* Better scrolling for iOS */
     pointer-events: none;
     opacity: 0;
     transition: top .4s, opacity .3s;
+    background-color: var(--black-color); /* Ensure background color is applied */
   }
+  
+  /* Specific fix for Safari iOS */
+  @supports (-webkit-touch-callout: none) {
+    .nav__menu {
+      height: calc(100vh - 3.5rem - 80px); /* Adjust for iOS bottom bar */
+      padding-bottom: 80px;
+    }
+  }
+  
   .nav__menu::-webkit-scrollbar {
     width: 0;
   }
+  
   .nav__list {
     background-color: var(--black-color);
     padding-top: 1rem;
+    width: 100%;
+    display: block;
   }
+  
   .nav__logo{
     width: 150px;
     height: 70px;
     margin-top: 0px;
+  }
+  
+  /* Force hardware acceleration for smoother animations */
+  .nav__menu, .dropdown__menu, .dropdown__submenu {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  /* Make dropdown items take full width */
+  .dropdown__item, .dropdown__subitem {
+    width: 100%;
   }
 }
 
@@ -186,6 +217,7 @@ a {
   justify-content: space-between;
   align-items: center;
   transition: background-color .3s;
+  touch-action: manipulation; /* Improve touch response */
 }
 
 .nav__link:hover {
@@ -196,7 +228,8 @@ a {
 .show-menu {
   opacity: 1;
   top: 3.5rem;
-  pointer-events: initial;
+  pointer-events: auto;
+  visibility: visible; /* Add visibility for iOS */
 }
 
 /* Show icon */
@@ -212,12 +245,15 @@ a {
 /*=============== DROPDOWN ===============*/
 .dropdown__item {
   cursor: pointer;
+  position: relative; /* Ensure relative positioning */
+  touch-action: manipulation; /* Improve touch response */
 }
 
 .dropdown__arrow {
   font-size: 1.25rem;
   font-weight: initial;
   transition: transform .4s;
+  pointer-events: none; /* Prevent arrow from capturing touches */
 }
 
 .dropdown__link, 
@@ -230,6 +266,7 @@ a {
   column-gap: .5rem;
   font-weight: var(--font-semi-bold);
   transition: background-color .3s;
+  touch-action: manipulation; /* Improve touch response */
 }
 
 .dropdown__link i, 
@@ -248,17 +285,36 @@ a {
   max-height: 0;
   overflow: hidden;
   transition: max-height .4s ease-out;
+  background-color: var(--black-color); /* Ensure background color */
 }
 
-/* Show dropdown menu & submenu */
+/* Mobile specific dropdown behavior - for iOS touch */
+@media screen and (max-width: 1118px) {
+  /* Alternative approach for iOS touch events */
+  .dropdown-active .dropdown__menu,
+  .dropdown-subactive .dropdown__submenu {
+    max-height: 1000px;
+    transition: max-height .4s ease-in;
+  }
+  
+  /* Rotate dropdown icon */
+  .dropdown-active .dropdown__arrow {
+    transform: rotate(180deg);
+  }
+}
+
+/* Show dropdown menu & submenu - keep both hover and active state */
 .dropdown__item:hover .dropdown__menu, 
-.dropdown__subitem:hover > .dropdown__submenu {
+.dropdown__subitem:hover > .dropdown__submenu,
+.dropdown-active .dropdown__menu,
+.dropdown-subactive .dropdown__submenu {
   max-height: 1000px;
   transition: max-height .4s ease-in;
 }
 
-/* Rotate dropdown icon */
-.dropdown__item:hover .dropdown__arrow {
+/* Rotate dropdown icon - both for hover and active state */
+.dropdown__item:hover .dropdown__arrow,
+.dropdown-active .dropdown__arrow {
   transform: rotate(180deg);
 }
 
@@ -345,8 +401,7 @@ a {
   .dropdown__link, 
   .dropdown__sublink {
     padding-inline: 1rem 3.5rem;
-    white-space: nowrap; 
-
+    white-space: nowrap;
   }
 
   .dropdown__subitem .dropdown__link {
