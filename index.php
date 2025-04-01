@@ -203,6 +203,30 @@
 					<a target="_blank"><img src="images/client5.png" title="" class="marqueelogo"></a>
 					<a target="_blank"><img src="images/client6.png" title="" class="marqueelogo"></a>
                     <a target="_blank"><img src="images/client7.png" title="" class="marqueelogo"></a>
+					
+				</div>
+                <div class="marquee" style="animation-duration: 15s;">
+					<a target="_blank"><img src="images/client1.jpg" title="" class="marqueelogo"></a>
+					<a target="_blank"><img src="images/client2.png" title="" class="marqueelogo"></a>
+					<a target="_blank"><img src="images/client3.png" title="" class="marqueelogo"></a>
+					<a target="_blank"><img src="images/client4.jpg" title="" class="marqueelogo" id="big"></a>
+					<a target="_blank"><img src="images/client5.png" title="" class="marqueelogo"></a>
+					<a target="_blank"><img src="images/client6.png" title="" class="marqueelogo"></a>
+                    <a target="_blank"><img src="images/client7.png" title="" class="marqueelogo"></a>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+    </section>
+
+
+    
+    <section class="logoMarqueeSection">
+	<div class="container" id="logoMarqueeSection">
+		<div class="default-content-container flex items-center">
+			<div class="default-content-container-inner marquee-wrapper relative overflow-hidden inline-block">
+				<div class="marquee" style="animation-duration: 15s;">
                     <a target="_blank"><img src="images/client8.png" title="" class="marqueelogo"></a>
                     <a target="_blank"><img src="images/client9.png" title="" class="marqueelogo"></a>
                     <a target="_blank"><img src="images/client10.png" title="" class="marqueelogo"></a>
@@ -215,13 +239,6 @@
 					
 				</div>
                 <div class="marquee" style="animation-duration: 15s;">
-					<a target="_blank"><img src="images/client1.jpg" title="" class="marqueelogo"></a>
-					<a target="_blank"><img src="images/client2.png" title="" class="marqueelogo"></a>
-					<a target="_blank"><img src="images/client3.png" title="" class="marqueelogo"></a>
-					<a target="_blank"><img src="images/client4.jpg" title="" class="marqueelogo" id="big"></a>
-					<a target="_blank"><img src="images/client5.png" title="" class="marqueelogo"></a>
-					<a target="_blank"><img src="images/client6.png" title="" class="marqueelogo"></a>
-                    <a target="_blank"><img src="images/client7.png" title="" class="marqueelogo"></a>
                     <a target="_blank"><img src="images/client8.png" title="" class="marqueelogo"></a>
                     <a target="_blank"><img src="images/client9.png" title="" class="marqueelogo"></a>
                     <a target="_blank"><img src="images/client10.png" title="" class="marqueelogo"></a>
