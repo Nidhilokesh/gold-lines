@@ -47,17 +47,10 @@
                     <i class="fas fa-truck-moving"></i>
                 </div>
                 <h3>Vehicle & Ancillary Equipment Lease</h3>
-                <p>Businesses periodically require access to cost-effective and reliable vehicles and ancillary equipment that they cannot justify buying outright.</p>
-                <p>Our comprehensive services include:</p>
-                <ul>
-                    <li>Trucks and trailers</li>
-                    <li>Forklifts and cranes</li>
-                    <li>Highest safety and quality standards</li>
-                    <li>Driver training</li>
-                    <li>Vehicle inspection</li>
-                    <li>Equipment calibration</li>
-                    <li>Repair and replacement services</li>
-                </ul>
+                <p>Businesses of every size periodically require access to cost effective and reliable vehicles and ancillary equipment that they cannot justify buying out right. </p>
+                <p>We offer trucks, trailers, forklifts, cranes, or any other equipment as per your need.</p>
+                <p>We use only the best vehicles and equipment, and we follow the highest standards of safety and quality. We also provide comprehensive operations and maintenance services, including driver training, vehicle inspection, equipment calibration, repair, replacement, and more.</p>
+                <p>Contact Us for a no obligation consultation today.</p>
             </div>
 
             <div class="service-card fade-in">
@@ -65,16 +58,10 @@
                     <i class="fas fa-shuttle-van"></i>
                 </div>
                 <h3>Shuttle Transportation</h3>
-                <p>Safely transporting your assets, equipment, personnel, and supplies requires reliable access to bulk transportation of every kind.</p>
-                <p>We offer flexible transportation solutions:</p>
-                <ul>
-                    <li>Scheduled shuttle transportation</li>
-                    <li>On-demand transport</li>
-                    <li>Charter shuttle transportation</li>
-                    <li>Latest vehicle fleet</li>
-                    <li>Professional drivers</li>
-                    <li>Comprehensive service expertise</li>
-                </ul>
+                <p>Safely transporting your assets, equipment, personnel and supplies from one location to the other requires reliable access to bulk transportation of every kind.</p>
+                <p>We offer a full range of services including scheduled shuttle transportation for calculated movement needs, on-demand for adhoc or instant transport needs, and charter shuttle transportation for longer distance trips. </p>
+                <p>We possess the latest vehicles, professional drivers and overall service expertise to transport you with confidence.</p>
+                <p>Contact Us for a no obligation consultation today</p>
             </div>
 
             <div class="service-card fade-in">
@@ -82,17 +69,9 @@
                     <i class="fas fa-tools"></i>
                 </div>
                 <h3>Motor Pool & Onsite Workshop Facilities</h3>
-                <p>Maintaining a reliable transportation fleet requires consistent access to professional resources and parts.</p>
-                <p>Our comprehensive services include:</p>
-                <ul>
-                    <li>Vehicle rental</li>
-                    <li>Vehicle maintenance</li>
-                    <li>Vehicle repair</li>
-                    <li>Spare parts supply</li>
-                    <li>Driver training</li>
-                    <li>Vehicle inspection</li>
-                    <li>Equipment calibration</li>
-                </ul>
+                <p>Maintaining a fleet of reliable transportation for your immediate and every day secure transport needs require consistent access to professional resources and parts.</p>
+                <p>We offer a range of services, including vehicle rental, vehicle maintenance, vehicle repair, spare parts supply, and more. We also provide comprehensive operations and maintenance services, including driver training, vehicle inspection, equipment calibration, repair and replacement, and more.</p>
+                <p>Contact Us for a no obligation consultation today.</p>
             </div>
 
             <div class="service-card fade-in">
@@ -100,26 +79,18 @@
                     <i class="fas fa-balance-scale"></i>
                 </div>
                 <h3>Equipment Lease & Calibration</h3>
-                <p>We provide access to a diverse range of equipment-intensive project vehicles at cost-effective terms.</p>
-                <p>Equipment types include:</p>
+                <p>Executing a diverse range of equipment-intensive projects requires ready access to reliable vehicles at cost-effective terms. We provide dump trucks, back hoes, loaders, graders, excavators, forklifts, bobcats, low bed & flat bed trucks, boom trucks, cranes, and man lifts. </p>
+                <p>Our equipment calibration services ensured all equipment is measured, tested, inspected and graded under internationally compliant standards. The types of testing we perform includes the following</p>
                 <ul>
-                    <li>Dump trucks</li>
-                    <li>Backhoes and loaders</li>
-                    <li>Graders and excavators</li>
-                    <li>Forklifts and bobcats</li>
-                    <li>Low bed & flat bed trucks</li>
-                    <li>Boom trucks and cranes</li>
-                    <li>Man lifts</li>
-                </ul>
-                <p>Calibration services encompass:</p>
-                <ul>
-                    <li>Dead weight testing</li>
-                    <li>Temperature measurement</li>
-                    <li>Linear measurement</li>
-                    <li>Current rating</li>
-                    <li>Electrical voltage measurement</li>
-                    <li>Water flow rate testing</li>
-                    <li>Hydraulic pressure testing</li>
+                    <li>Dead Weight Test</li>
+                    <li>Temperature Measurement</li>
+                    <li>Linear Measurement</li>
+                    <li>Current Rating of Equipment</li>
+                    <li>Resistance of a Current Carrying Loop</li>
+                    <li>Insulation Resistance of a Current Carrying Loop</li>
+                    <li>Electrical Voltage Measurement</li>
+                    <li>Water Flow Rates for Hydrant Systems</li>
+                    <li>Hydraulic Pressure for Pipe Installations</li>
                 </ul>
             </div>
         </div>

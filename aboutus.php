@@ -70,19 +70,102 @@
     </div>
   </section>
 
-  <!-- Featured Projects Section -->
+  <!-- partners Section -->
   <div class="partners">
-    <h2>OUR PARTNERS</h2>
-  </div>
+        <h2>Our <span>Partners</span></h2>
+                
+    </div>
 
-  <div class="logo-container">
-    <img src="images/client1.jpg" alt="Partner 1">
-    <img src="images/client2.png" alt="Partner 2">
-    <img src="images/client3.png" alt="Partner 3">
-    <img src="images/client4.jpg" alt="Partner 4">
-    <img src="images/client5.png" alt="Partner 5">
-    <img src="images/client6.png" alt="Partner 6">
-  </div>
+    <section class="logoMarqueeSection">
+	<div class="container" id="logoMarqueeSection">
+		<div class="default-content-container flex items-center">
+			<div class="default-content-container-inner marquee-wrapper relative overflow-hidden inline-block">
+				<div class="marquee" style="animation-duration: 25s;">
+					<a target="_blank"><img src="images/partner1.png" title="" class="marqueelogo"></a>
+					<a target="_blank"><img src="images/partner2.png" title="" class="marqueelogo"></a>
+					<a target="_blank"><img src="images/partner3.png" title="" class="marqueelogo"></a>
+					<a target="_blank"><img src="images/partner4.png" title="" class="marqueelogo" id="big"></a>
+					<a target="_blank"><img src="images/partner5.png" title="" class="marqueelogo"></a>
+					<a target="_blank"><img src="images/partner6.png" title="" class="marqueelogo"></a>
+					<a target="_blank"><img src="images/partner7.png" title="" class="marqueelogo"></a>
+          <a target="_blank"><img src="images/partner8.png" title="" class="marqueelogo"></a>
+				</div>
+                <div class="marquee" style="animation-duration: 25s;">
+					<a target="_blank"><img src="images/partner1.png" title="" class="marqueelogo"></a>
+					<a target="_blank"><img src="images/partner2.png" title="" class="marqueelogo"></a>
+					<a target="_blank"><img src="images/partner3.png" title="" class="marqueelogo"></a>
+					<a target="_blank"><img src="images/partner4.png" title="" class="marqueelogo" id="big"></a>
+					<a target="_blank"><img src="images/partner5.png" title="" class="marqueelogo"></a>
+					<a target="_blank"><img src="images/partner6.png" title="" class="marqueelogo"></a>
+					<a target="_blank"><img src="images/partner7.png" title="" class="marqueelogo"></a>
+          <a target="_blank"><img src="images/partner8.png" title="" class="marqueelogo"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+    </section>
+
+    <section class="logoMarqueeSection">
+	<div class="container" id="logoMarqueeSection">
+		<div class="default-content-container flex items-center">
+			<div class="default-content-container-inner marquee-wrapper relative overflow-hidden inline-block">
+				<div class="marquee" style="animation-duration: 25s;">
+					<a target="_blank"><img src="images/partner9.png" title="" class="marqueelogo"></a>
+					<a target="_blank"><img src="images/partner10.png" title="" class="marqueelogo"></a>
+					<a target="_blank"><img src="images/partner11.png" title="" class="marqueelogo"></a>
+					<a target="_blank"><img src="images/partner12.png" title="" class="marqueelogo" ></a>
+					<a target="_blank"><img src="images/partner13.png" title="" class="marqueelogo"></a>
+					<a target="_blank"><img src="images/partner14.png" title="" class="marqueelogo"></a>
+					<a target="_blank"><img src="images/partner15.png" title="" class="marqueelogo"></a>
+          <a target="_blank"><img src="images/partner16.png" title="" class="marqueelogo"></a>
+          <a target="_blank"><img src="images/partner17.png" title="" class="marqueelogo"></a>
+				</div>
+        <div class="marquee" style="animation-duration: 25s;">
+					<a target="_blank"><img src="images/partner9.png" title="" class="marqueelogo"></a>
+					<a target="_blank"><img src="images/partner10.png" title="" class="marqueelogo"></a>
+					<a target="_blank"><img src="images/partner11.png" title="" class="marqueelogo"></a>
+					<a target="_blank"><img src="images/partner12.png" title="" class="marqueelogo"></a>
+					<a target="_blank"><img src="images/partner13.png" title="" class="marqueelogo"></a>
+					<a target="_blank"><img src="images/partner14.png" title="" class="marqueelogo"></a>
+					<a target="_blank"><img src="images/partner15.png" title="" class="marqueelogo"></a>
+          <a target="_blank"><img src="images/partner16.png" title="" class="marqueelogo"></a>
+          <a target="_blank"><img src="images/partner17.png" title="" class="marqueelogo"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+  </section>
+
+  <section class="logoMarqueeSection">
+	<div class="container" id="logoMarqueeSection">
+		<div class="default-content-container flex items-center">
+			<div class="default-content-container-inner marquee-wrapper relative overflow-hidden inline-block">
+				<div class="marquee" style="animation-duration: 25s;">
+					<a target="_blank"><img src="images/partner18.png" title="" class="marqueelogo"></a>
+					<a target="_blank"><img src="images/partner19.png" title="" class="marqueelogo"></a>
+					<a target="_blank"><img src="images/partner20.png" title="" class="marqueelogo"></a>
+					<a target="_blank"><img src="images/partner21.png" title="" class="marqueelogo"></a>
+					<a target="_blank"><img src="images/partner22.png" title="" class="marqueelogo"></a>
+					<a target="_blank"><img src="images/partner23.png" title="" class="marqueelogo"></a>
+					<a target="_blank"><img src="images/partner24.png" title="" class="marqueelogo"></a>
+          <a target="_blank"><img src="images/partner25.png" title="" class="marqueelogo" id="big"></a>
+          <a target="_blank"><img src="images/partner26.png" title="" class="marqueelogo"></a>
+				</div>
+        <div class="marquee" style="animation-duration: 25s;">
+					<a target="_blank"><img src="images/partner18.png" title="" class="marqueelogo"></a>
+					<a target="_blank"><img src="images/partner19.png" title="" class="marqueelogo"></a>
+					<a target="_blank"><img src="images/partner20.png" title="" class="marqueelogo"></a>
+					<a target="_blank"><img src="images/partner21.png" title="" class="marqueelogo"></a>
+					<a target="_blank"><img src="images/partner22.png" title="" class="marqueelogo"></a>
+					<a target="_blank"><img src="images/partner23.png" title="" class="marqueelogo"></a>
+					<a target="_blank"><img src="images/partner24.png" title="" class="marqueelogo"></a>
+          <a target="_blank"><img src="images/partner25.png" title="" class="marqueelogo" id="big"></a>
+          <a target="_blank"><img src="images/partner26.png" title="" class="marqueelogo"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+  </section>
 
 
   <!-- Leadership Section -->

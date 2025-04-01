@@ -309,6 +309,10 @@ body {
         font-size: 0.7rem;
     }
 
+    .itc-services-image img {
+        height: 200px;
+    }
+
     .itc-services-features {
         padding: 0.5rem;
         font-size: 0.8rem;

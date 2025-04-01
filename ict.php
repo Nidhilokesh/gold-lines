@@ -13,7 +13,7 @@
 <body>
     <!-- ITCCC Heading -->
     <header class="main-heading">
-        <h1>ITC</h1>
+        <h1>ICT</h1>
     </header>
 
     <!-- Hero Section -->
@@ -26,7 +26,7 @@
                 <p>At Golden Lines Company, we recognize that every business is unique. That's why we offer a wide range of fully customized ICT solutions designed to meet your specific needs</p>
             </div>
             <div class="hero-image">
-            <img src="https://png.pngtree.com/thumb_back/fh260/background/20230702/pngtree-3d-rendered-abstract-tech-background-with-a-dark-theme-image_3739440.jpg"/>
+            <img src="images/ict1.png"/>
             </div>
         </div>
     </section>
@@ -135,7 +135,7 @@
                     </ul>
                 </div>
                 <div class="benefits-image">
-                    <img src="https://png.pngtree.com/thumb_back/fh260/background/20230702/pngtree-3d-rendered-abstract-tech-background-with-a-dark-theme-image_3739440.jpg"/>
+                    <img src="images/ict2.png"/>
                 </div>
             </div>
         </div>

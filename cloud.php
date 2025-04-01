@@ -75,7 +75,7 @@
                     </div>
                 </div>
                 <div class="itc-services-image">
-                    <img src="images/store.png" alt="Cloud Infrastructure Illustration">
+                    <img src="images/cloud3.png" alt="Cloud Infrastructure Illustration">
                 </div>
             </div>
         </div>
