@@ -15,7 +15,7 @@
     <style>
         /* Hero Section */
         .hero {
-            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/reff.jpg') no-repeat center center/cover;
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/hvac.jpg') no-repeat center center/cover;
             color: var(--text-white);
             text-align: center;
             padding: 120px 15px;

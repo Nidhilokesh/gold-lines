@@ -36,7 +36,7 @@
                     </div>
                 </div>
                 <div class="wifi-solutions-image">
-                    <img src="images/wi-fi.png" alt="Wi-Fi Network Illustration">
+                    <img src="images/wifi1.jpg" alt="Wi-Fi Network Illustration">
                 </div>
             </div>
         </div>
@@ -44,7 +44,7 @@
         <div class="wifi-solutions-container">
             <div class="wifi-solutions-content">
                 <div class="wifi-solutions-image">
-                    <img src="images/wi-fi2.jpg" alt="Wi-Fi Network Infrastructure">
+                    <img src="images/wifi2.avif" alt="Wi-Fi Network Infrastructure">
                 </div>
                 <div class="wifi-solutions-text">
                     <h3>Network Benefits</h3>

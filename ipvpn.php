@@ -25,7 +25,7 @@
                 <p>Our comprehensive IPVPN services provide secure, scalable, and efficient communication networks tailored to meet the complex connectivity needs of modern businesses.</p>
             </div>
             <div class="hero-image">
-                <img src="https://png.pngtree.com/thumb_back/fh260/background/20230702/pngtree-3d-rendered-abstract-tech-background-with-a-dark-theme-image_3739440.jpg"/>
+                <img src="images/vpn1.avif"/>
             </div>
         </div>
     </section>
@@ -77,7 +77,7 @@
                     </ul>
                 </div>
                 <div class="benefits-image">
-                    <img src="https://png.pngtree.com/thumb_back/fh260/background/20230702/pngtree-3d-rendered-abstract-tech-background-with-a-dark-theme-image_3739440.jpg"/>
+                    <img src="images/vpn2.jpg"/>
                 </div>
             </div>
         </div>

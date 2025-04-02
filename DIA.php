@@ -27,7 +27,7 @@
                 <p>Our DIA solution provides a 1:1 connectivity model, ensuring dedicated bandwidth for mission-critical applications, web-based services, and seamless internet communication.</p>
             </div>
             <div class="hero-image">
-                <img src="https://png.pngtree.com/thumb_back/fh260/background/20230702/pngtree-3d-rendered-abstract-tech-background-with-a-dark-theme-image_3739440.jpg"/>
+                <img src="images/dia1.webp"/>
             </div>
         </div>
     </section>
@@ -87,7 +87,7 @@
                     </ul>
                 </div>
                 <div class="benefits-image">
-                    <img src="https://png.pngtree.com/thumb_back/fh260/background/20230702/pngtree-3d-rendered-abstract-tech-background-with-a-dark-theme-image_3739440.jpg"/>
+                    <img src="images/dia2.webp"/>
                 </div>
             </div>
         </div>
