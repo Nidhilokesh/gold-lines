@@ -36,69 +36,36 @@ $current_page = basename($_SERVER['PHP_SELF']);
 
                   <li><a href="aboutus.php" class="nav__link <?= ($current_page == 'aboutus.php') ? 'active' : ''; ?>">About Us</a></li>
 
-                  <!--=============== DROPDOWN 1 ===============-->
+                  <li><a href="aboutus.php" class="nav__link <?= ($current_page == 'aboutus.php') ? 'active' : ''; ?>">Data Services</a></li>
+
+
                   <li class="dropdown__item">
                      <div class="nav__link">
-                       Data Services <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                        ICT Services <i class="ri-arrow-down-s-line dropdown__arrow"></i>
                      </div>
 
                      <ul class="dropdown__menu">
-
-                        <!--=============== DROPDOWN SUBMENU ===============-->
-                        <li class="dropdown__subitem">
-                           <div class="dropdown__link">
-                               IT & Telecom Services <i class="ri-add-line dropdown__add"></i>
-                           </div>
-
-                           <ul class="dropdown__submenu">
-                              <li>
-                                 <a href="DIA.php" class="dropdown__sublink"  <?= ($current_page == 'DIA.php') ? 'active' : '';?>>
-                                    Dedicated Internet Access 
-                                 </a>
-                              </li>
-      
-                              <li>
-                                 <a href="wi-fi.php" class="dropdown__sublink"  <?= ($current_page == 'wi-fi.php') ? 'active' : '';?>>
-                                    WI-FI Solution
-                                 </a>
-                              </li>
-      
-                              <li>
-                                 <a href="ipvpn.php" class="dropdown__sublink"  <?= ($current_page == 'ipvpn.php') ? 'active' : '';?>>
-                                    IPVPN (L3 and L2)
-                                 </a>
-                              </li>
-                           </ul>
+                        <li>
+                            <a href="construction.php" class="dropdown__link <?= ($current_page == 'construction.php') ? 'active' : ''; ?>">
+                              Cloud Computing
+                           </a>                          
                         </li>
-                        <li class="dropdown__subitem">
-                           <div class="dropdown__link">
-                               ICT Services  <i class="ri-add-line dropdown__add"></i>
-                           </div>
 
-                           <ul class="dropdown__submenu">
-                              <li>
-                                 <a href="ict.php" class="dropdown__sublink"  <?= ($current_page == 'ict.php') ? 'active' : '';?>>
-                                     ICT Solutions
-                                 </a>
-                              </li>
-      
-                              <li>
-                                 <a href="cloud.php" class="dropdown__sublink"  <?= ($current_page == 'cloud.php') ? 'active' : '';?>>
-                                 Cloud Services
-                                 </a>
-                              </li>
-      
-                              <li>
-                                 <a href="network.php" class="dropdown__sublink"  <?= ($current_page == 'network.php') ? 'active' : '';?>>
-                                    Networking, CCTV & LED screens
-                                 </a>
-                              </li>
-                              <li>
-                                 <a href="nutshell.php" class="dropdown__sublink"  <?= ($current_page == 'nutshell.php') ? 'active' : '';?>>
-                                    Services Part in Nutshell
-                                 </a>
-                              </li>
-                           </ul>
+                        <li>
+                            <a href="infrasturcture.php" class="dropdown__link <?= ($current_page == 'infrasturcture.php') ? 'active' : ''; ?>">
+                              Wifi Solutions
+                           </a>
+                        </li>
+
+                        <li>
+                            <a href="baselife.php" class="dropdown__link <?= ($current_page == 'baselife.php') ? 'active' : ''; ?>">
+                              Low Current
+                           </a>
+                        </li>
+                        <li>
+                            <a href="refregiration.php" class="dropdown__link <?= ($current_page == 'refregiration.php') ? 'active' : ''; ?>">
+                              Innovative Solutions 
+                           </a>
                         </li>
                      </ul>
                   </li>
