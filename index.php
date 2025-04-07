@@ -1,6 +1,4 @@
-<?php
-  include 'includes/header.php';
-?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,8 +10,14 @@
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
+<?php
+  include 'includes/header.php';
+?>
+<?php
+  include 'includes/slider.php';
+?>
 
-
+<!-- 
 <div class="preloader">
   <div class="preloader__content">
     <div class="preloader__logo-container">
@@ -26,21 +30,8 @@
       <span></span>
     </div>
   </div>
-</div>
-    <!-- Hero Section -->
-    <section class="hero" id="home">
-        <div class="particles-container" id="particles"></div>
-        <div class="container hero-container">
-            <div class="hero-content fade-in">
-                <h1>WE HELP YOU <span>HIT YOUR TARGET</span></h1>
-                <p>Comprehensive contracting solutions that transform your vision into reality across the Middle East.</p>
-                <div>
-                    <a href="aboutus.php" class="hero-cta">KNOW MORE</a>
-                    <a href="#services" class="hero-cta">OUR SERVICES</a>
-                </div>
-            </div>
-        </div>
-    </section>
+</div> -->
+
 
     <!-- Service Focus Areas Section -->
     <section class="service-focus section-stagger" id="service-focus">
