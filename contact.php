@@ -12,7 +12,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         /* Keep original colors and variables from your code */
-      
+        :root {
+            --bg-primary: #121212;
+            --bg-secondary: #1E1E1E;
+            --bg-tertiary: #2A2A2A;
+            --accent-color: #C4A968;
+            --text-primary: #FFFFFF;
+            --text-secondary: #B0B0B0;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
         /* Add margin to account for fixed header */
         body {
@@ -35,6 +47,7 @@
             display: flex;
             flex-direction: column;
             gap: 30px;
+            background-color:  var(--bg-primary);
         }
 
         /* Contact info section */
@@ -266,7 +279,8 @@
                         <strong>Our Location</strong>
                         <p>
                         <a href="https://maps.app.goo.gl/oToJ84BEUVNa8v599" target="_blank" style="color: inherit; text-decoration: none;">
-                            7409 Al Hawary Street, Malaz, Riyadh, KSA
+                        7409, Al Hawwari St, Al Malaz Dist, Riyadh, KSA
+
                         </a>
                         </p>
                     </div>
@@ -275,21 +289,21 @@
                     <i class="fas fa-phone"></i>
                     <div>
                         <strong>Phone Number</strong>
-                        <p>+966 56 697 7202</p>
+                        <p>+966 56 078 7666</p>
                     </div>
                 </div>
                 <div class="info-item">
                     <i class="fas fa-envelope"></i>
                     <div>
                         <strong>Email Address</strong>
-                        <p>info@goldenlines.com</p>
+                        <p>Info@goldenlinesco.com</p>
                     </div>
                 </div>
                 <div class="info-item">
                     <i class="fas fa-clock"></i>
                     <div>
                         <strong>Business Hours</strong>
-                        <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
+                        <p>Sunday-Thursday: 9:00 AM - 5:00 PM</p>
                     </div>
                 </div>
                 
