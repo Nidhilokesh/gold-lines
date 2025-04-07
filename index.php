@@ -12,6 +12,21 @@
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
+
+
+<div class="preloader">
+  <div class="preloader__content">
+    <div class="preloader__logo-container">
+      <div class="preloader__logo"></div>
+      <div class="preloader__gradient-overlay"></div>
+    </div>
+    <div class="preloader__spinner">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+</div>
     <!-- Hero Section -->
     <section class="hero" id="home">
         <div class="particles-container" id="particles"></div>
@@ -195,7 +210,7 @@
 	<div class="container" id="logoMarqueeSection">
 		<div class="default-content-container flex items-center">
 			<div class="default-content-container-inner marquee-wrapper relative overflow-hidden inline-block">
-				<div class="marquee" style="animation-duration: 15s;">
+				<div class="marquee" style="animation-duration: 20s;">
 					<a target="_blank"><img src="images/client1.jpg" title="" class="marqueelogo"></a>
 					<a target="_blank"><img src="images/client2.png" title="" class="marqueelogo"></a>
 					<a target="_blank"><img src="images/client3.png" title="" class="marqueelogo"></a>
@@ -205,11 +220,11 @@
                     <a target="_blank"><img src="images/client7.png" title="" class="marqueelogo"></a>
 					
 				</div>
-                <div class="marquee" style="animation-duration: 15s;">
+                <div class="marquee" style="animation-duration: 20s;">
 					<a target="_blank"><img src="images/client1.jpg" title="" class="marqueelogo"></a>
 					<a target="_blank"><img src="images/client2.png" title="" class="marqueelogo"></a>
 					<a target="_blank"><img src="images/client3.png" title="" class="marqueelogo"></a>
-					<a target="_blank"><img src="images/client4.jpg" title="" class="marqueelogo" id="big"></a>
+					<a target="_blank"><img src="images/client4.jpg" title="" class="marqueelogo"></a>
 					<a target="_blank"><img src="images/client5.png" title="" class="marqueelogo"></a>
 					<a target="_blank"><img src="images/client6.png" title="" class="marqueelogo"></a>
                     <a target="_blank"><img src="images/client7.png" title="" class="marqueelogo"></a>
@@ -226,7 +241,7 @@
 	<div class="container" id="logoMarqueeSection">
 		<div class="default-content-container flex items-center">
 			<div class="default-content-container-inner marquee-wrapper relative overflow-hidden inline-block">
-				<div class="marquee" style="animation-duration: 15s;">
+				<div class="marquee" style="animation-duration: 20s;">
                     <a target="_blank"><img src="images/client8.png" title="" class="marqueelogo"></a>
                     <a target="_blank"><img src="images/client9.png" title="" class="marqueelogo"></a>
                     <a target="_blank"><img src="images/client10.png" title="" class="marqueelogo"></a>
@@ -238,7 +253,7 @@
                     <a target="_blank"><img src="images/client16.png" title="" class="marqueelogo"></a>
 					
 				</div>
-                <div class="marquee" style="animation-duration: 15s;">
+                <div class="marquee" style="animation-duration: 20s;">
                     <a target="_blank"><img src="images/client8.png" title="" class="marqueelogo"></a>
                     <a target="_blank"><img src="images/client9.png" title="" class="marqueelogo"></a>
                     <a target="_blank"><img src="images/client10.png" title="" class="marqueelogo"></a>

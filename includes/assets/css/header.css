@@ -57,11 +57,6 @@ a {
   text-decoration: none;
 }
 
-/*=============== REUSABLE CSS CLASSES ===============*/
-.container1 {
-  max-width: 1120px;
-  margin-inline: 1.5rem;
-}
 
 /*=============== HEADER ===============*/
 .header {

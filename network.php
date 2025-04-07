@@ -65,37 +65,29 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            const fadeInElements = document.querySelectorAll('.fade-in');
-            
-            const observerOptions = {
-                threshold: 0.1
-            };
+    const observerOptions = {
+        threshold: 0.2,
+        rootMargin: '0px 0px -100px 0px'
+    };
 
-            const observer = new IntersectionObserver((entries, observer) => {
-                entries.forEach((entry, index) => {
-                    if (entry.isIntersecting) {
-                        setTimeout(() => {
-                            entry.target.style.transition = 'all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1)';
-                            entry.target.style.opacity = '0';
-                            entry.target.style.transform = 'translateY(20px)';
-                            
-                            requestAnimationFrame(() => {
-                                entry.target.style.opacity = '1';
-                                entry.target.style.transform = 'translateY(0)';
-                            });
-                        }, index * 100);
-
-                        observer.unobserve(entry.target);
-                    }
-                });
-            }, observerOptions);
-
-            fadeInElements.forEach(element => {
-                element.style.opacity = '0';
-                element.style.transform = 'translateY(20px)';
-                observer.observe(element);
-            });
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+            }
         });
+    }, observerOptions);
+
+    // Observe section headers
+    document.querySelectorAll('.section-header').forEach(element => {
+        observer.observe(element);
+    });
+    
+    // Observe service containers
+    document.querySelectorAll('.itc-services-container').forEach(element => {
+        observer.observe(element);
+    });
+});
     </script>
 </body>
 </html>

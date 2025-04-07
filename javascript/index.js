@@ -1,3 +1,31 @@
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    const preloader = document.querySelector('.preloader');
+    const startTime = Date.now();
+    const minDisplayTime = 3000; 
+    
+    function hidePreloader() {
+      const currentTime = Date.now();
+      const elapsedTime = currentTime - startTime;
+      
+      if (elapsedTime >= minDisplayTime) {
+        preloader.classList.add('preloader--hidden');
+      } else {
+        const remainingTime = minDisplayTime - elapsedTime;
+        setTimeout(function() {
+          preloader.classList.add('preloader--hidden');
+        }, remainingTime);
+      }
+    }
+    
+    window.addEventListener('load', hidePreloader);
+    
+    setTimeout(function() {
+      preloader.classList.add('preloader--hidden');
+    }, 5000);
+  });
+
 document.addEventListener('DOMContentLoaded', function() {
     // Particle generation
     const particlesContainer = document.getElementById('particles');

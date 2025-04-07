@@ -15,6 +15,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
 
    </head>
    <body>
+
       <!--=============== HEADER ===============-->
       <header class="header">
          <nav class="nav container1">
