@@ -17,7 +17,7 @@
   include 'includes/slider.php';
 ?>
 
-<!-- 
+
 <div class="preloader">
   <div class="preloader__content">
     <div class="preloader__logo-container">
@@ -30,7 +30,7 @@
       <span></span>
     </div>
   </div>
-</div> -->
+</div>
 
 
     <!-- Service Focus Areas Section -->
