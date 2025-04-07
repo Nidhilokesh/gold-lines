@@ -361,6 +361,11 @@ a {
   .nav__toggle {
     display: none;
   }
+
+  .nav__menu{
+    margin-right: 15px;
+  }
+
   .nav__list {
     height: 100%;
     display: flex;

@@ -38,32 +38,35 @@ $current_page = basename($_SERVER['PHP_SELF']);
 
                   <li><a href="aboutus.php" class="nav__link <?= ($current_page == 'aboutus.php') ? 'active' : ''; ?>">Data Services</a></li>
 
-
+                  <!--=============== DROPDOWN 1 ===============-->
                   <li class="dropdown__item">
                      <div class="nav__link">
-                        ICT Services <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                        <a href="ict.php"  class="nav__link <?= ($current_page == 'ict.php') ? 'active' : ''; ?>" style="padding:0;">
+                           ICT Services 
+                        </a>
+                        <i class="ri-arrow-down-s-line dropdown__arrow"></i>
                      </div>
 
                      <ul class="dropdown__menu">
                         <li>
-                            <a href="construction.php" class="dropdown__link <?= ($current_page == 'construction.php') ? 'active' : ''; ?>">
+                           <a href="cloud.php" class="dropdown__link <?= ($current_page == 'cloud.php') ? 'active' : ''; ?>">
                               Cloud Computing
                            </a>                          
                         </li>
 
                         <li>
-                            <a href="infrasturcture.php" class="dropdown__link <?= ($current_page == 'infrasturcture.php') ? 'active' : ''; ?>">
+                           <a href="wi-fi.php" class="dropdown__link <?= ($current_page == 'wi-fi.php') ? 'active' : ''; ?>">
                               Wifi Solutions
                            </a>
                         </li>
 
                         <li>
-                            <a href="baselife.php" class="dropdown__link <?= ($current_page == 'baselife.php') ? 'active' : ''; ?>">
+                           <a href="network.php" class="dropdown__link <?= ($current_page == 'network.php') ? 'active' : ''; ?>">
                               Low Current
                            </a>
                         </li>
                         <li>
-                            <a href="refregiration.php" class="dropdown__link <?= ($current_page == 'refregiration.php') ? 'active' : ''; ?>">
+                           <a href="innovative.php" class="dropdown__link <?= ($current_page == 'innovative.php') ? 'active' : ''; ?>">
                               Innovative Solutions 
                            </a>
                         </li>

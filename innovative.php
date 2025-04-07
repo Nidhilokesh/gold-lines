@@ -15,7 +15,7 @@
 <body>
     <section class="hero fade-in" style="padding-top: 6rem; padding-bottom:1rem; ">
         <div class="hero-content" >
-            <h1 class="fade-in">Services Part in Nutshell </h1>
+            <h1 class="fade-in">INNOVATIVE SOLUTIONS  </h1>
         </div>
     </section>
 

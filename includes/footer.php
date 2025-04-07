@@ -60,9 +60,10 @@
 
             <div class="footer-section contact-section">
                 <h3 class="section-heading">Get In Touch</h3>
-                <p style=" white-space: nowrap; "><i class="ri-phone-line"></i> +966 56 697 7202</p>
-                <p><i class="ri-map-pin-line"></i> 7409 Al Hawary Street, Malaz, Riyadh, KSA</p>
-                <p><i class="ri-time-line"></i> Monday - Friday: 9:00 AM - 5:00 PM</p>
+                <p style=" white-space: nowrap; "><a href="tel:+966560787666" ><i class="ri-phone-line"></i> +966 56 078 7666 </a></p>
+                <p><i class="ri-map-pin-line"></i> 7409, Al Hawwari St, Al Malaz Dist, Riyadh, KSA </p>
+                <p><i class="ri-mail-line"><a href="mailto:Info@goldenlinesco.com"></i> Email: Info@goldenlinesco.com</a> </p>
+                <p><i class="ri-time-line"></i> Working Hours: Sunday-Thursday 09:00-05:00M</p>
             </div>
         </div>
 

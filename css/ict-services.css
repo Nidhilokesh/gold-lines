@@ -50,7 +50,7 @@ body {
 }
 
 .divider {
-    height: 1px; background-color: #484848; width: 80%; margin: 0px auto;
+    height: 1px; background-color: #484848; width: 80%; margin: 20px auto;
 }
 
 .itc-services-container {
