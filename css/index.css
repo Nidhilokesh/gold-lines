@@ -839,10 +839,11 @@ body {
 
 .services-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    grid-template-columns: repeat(2, 1fr);  /* Exactly 2 cards in a row */
     gap: 25px;
     margin-bottom: 40px;
 }
+
 
 .service-card {
     background: rgba(30, 30, 30, 0.7);
@@ -1105,8 +1106,7 @@ body {
     }
     
     .services-container {
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        gap: 20px;
+        grid-template-columns: 1fr;  /* Single card in smaller screens */
     }
     
     .service-card h3 {

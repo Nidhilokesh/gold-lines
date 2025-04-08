@@ -226,7 +226,7 @@
                         <i class="fas fa-network-wired"></i>
                     </div>
                     <div class="service-content">
-                        <h3>L2 Service</h3>
+                        <h3>PLL L2 Service</h3>
                         <p>Advanced network infrastructure solutions</p>
                         <div class="service-features">
                             <span>Scalability</span>
@@ -254,30 +254,9 @@
                     <div class="service-overlay">
                         <p>GLC offers SD-WAN which is a virtual architecture designed to provide enterprises with flexible, resilient, and optimized wide-area network connectivity</p>
                     </div>
-                </div>
-                
-                <!-- Service Card 5 -->
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-broadcast-tower"></i>
-                    </div>
-                    <div class="service-content">
-                        <h3>4G & 5G Router</h3>
-                        <p>Point to Point and scalable service</p>
-                        <div class="service-features">
-                            <span>Reliable</span>
-                            <span>High Speed</span>
-                        </div>
-                    </div>
-                    <div class="service-overlay">
-                        <p>GLC offers 4G & 5G routers that connects two locations directly ensuring secure and private communication</p>
-                    </div>
-                </div>
-            </div>
-            
+                </div>          
         </div>
     </section>
-    
 
     <div class="section-header">
         <h2>Our <span>Clients</span></h2>
