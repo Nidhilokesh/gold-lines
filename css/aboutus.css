@@ -6,11 +6,11 @@
     font-family: 'Inter', 'Segoe UI', sans-serif;
   }
   :root {
-    --primary-color: #C4A968;
-    --secondary-color: #151515;
+    --primary-color: #c4a968;
+    --secondary-color: #0F2A5C;
     --text-light: #aaa;
     --text-white: #fff;
-    --card-bg: #1e1e1e;
+    --card-bg:  #000C2A;
     --gradient-primary: linear-gradient(45deg, #C4A968, #D6BC7A);
   }
   body {
@@ -47,7 +47,7 @@
   }
   
   /* Enhanced Hero Section */
-  /* .about-hero {
+  .about-hero {
     position: relative;
     min-height: 100vh;
     display: flex;
@@ -58,7 +58,7 @@
       url('https://png.pngtree.com/thumb_back/fh260/background/20230702/pngtree-3d-rendered-abstract-tech-background-with-a-dark-theme-image_3739440.jpg') no-repeat center center/cover;
     overflow: hidden;
     perspective: 1000px;
-  } */
+  }
   .about-hero::before {
     content: "";
     position: absolute;

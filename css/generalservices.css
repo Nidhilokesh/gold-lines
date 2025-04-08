@@ -1,9 +1,9 @@
 :root {
     --primary-color: #c4a968;
-    --secondary-color: #0A1F44;
+    --secondary-color: #0F2A5C;
     --text-light: #aaa;
     --text-white: #fff;
-    --card-bg: #113370;
+    --card-bg:  #000C2A;
 }
 
 * {
@@ -186,7 +186,7 @@ body {
 
 /* Let's Get Started Section */
 .service-focus {
-    background-color: var(--card-bg);
+    background-color: #0F1C3F;
     text-align: center;
     padding: 80px 15px;
     border-top: 2px solid var(--primary-color);

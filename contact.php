@@ -13,9 +13,9 @@
     <style>
         /* Keep original colors and variables from your code */
         :root {
-            --bg-primary: #121212;
-            --bg-secondary: #1E1E1E;
-            --bg-tertiary: #2A2A2A;
+            --bg-primary:  #0F2A5C;
+            --bg-secondary:#000C2A;
+            --bg-tertiary:#000C2A;
             --accent-color: #C4A968;
             --text-primary: #FFFFFF;
             --text-secondary: #B0B0B0;
@@ -99,7 +99,7 @@
 
         /* Form section */
         .contact-form {
-            background-color: #2a2a2a;
+            background-color:#000C2A;
             border-radius: 10px;
             padding: 20px;
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);

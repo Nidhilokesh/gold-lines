@@ -1,11 +1,18 @@
 /* styles.css */
 :root {
-    --bg-primary: #121212;
-    --bg-secondary: #1E1E1E;
-    --bg-tertiary: #2A2A2A;
+    --bg-primary:  #0F2A5C;
+    --bg-secondary:  #000C2A;
+    --bg-tertiary:  #000C2A;
     --accent-color: #C4A968;
     --text-primary: #FFFFFF;
     --text-secondary: #B0B0B0;
+
+    /* --primary-color: #C4A968;
+    --secondary-color: #0F2A5C;
+    --text-light: #aaa;
+    --text-white: #fff;
+    --card-bg:  #000C2A;
+    --card-hover-bg: #113270bf; */
 }
 
 * {

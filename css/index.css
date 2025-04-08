@@ -6,11 +6,12 @@
 }
 
 :root {
-    --primary-color: #C4A968;
-    --secondary-color: #151515;
+
+    --primary-color: #c4a968;
+    --secondary-color: #0A1F44;
     --text-light: #aaa;
     --text-white: #fff;
-    --card-bg: #1e1e1e;
+    --card-bg:  #000C2A;
 }
 
 body {
@@ -30,7 +31,7 @@ body {
 /* New Service Focus Section */
 .service-focus {
     padding: 80px 0;
-    background: linear-gradient(135deg, #121212 0%, var(--secondary-color) 100%);
+    background: linear-gradient(135deg,  #0A1F44 0%, var(--secondary-color) 100%);
     text-align: center;
     position: relative;
     overflow: hidden;
@@ -103,10 +104,10 @@ body {
     padding: 30px;
     text-align: left;
     transition: all 0.4s ease;
-    border: 1px solid #2a2a2a;
+    border: 1px solid #113370;
     position: relative;
     overflow: hidden;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    box-shadow: 0 10px 30px #0A1F44;
     transform-style: preserve-3d;
     perspective: 1000px;
 }
@@ -373,12 +374,12 @@ body {
 }
 
 .project-card {
-    background-color: var(--card-bg);
+    background-color: #000C2A;
     border-radius: 12px;
     padding: 30px;
     text-align: left;
     transition: all 0.4s ease;
-    border: 1px solid #2a2a2a;
+    border: 1px solid #113370;
     position: relative;
     overflow: hidden;
     height: 250px;
@@ -391,7 +392,7 @@ body {
     left: 0;
     width: 100%;
     height: 4px;
-    background: var(--primary-color);
+    background: var(#113370);
     transform: scaleX(0);
     transform-origin: right;
     transition: transform 0.4s ease;
@@ -759,9 +760,9 @@ body {
   }
 
   /* Services Section */
-.featured-services {
+  .featured-services {
     padding: 80px 0;
-    background: linear-gradient(135deg, #121212 0%, #1e1e1e 100%);
+    background: linear-gradient(135deg, #113370 0%, #0A1F44 100%);
     position: relative;
     overflow: hidden;
 }
@@ -809,14 +810,14 @@ body {
 .section-header h2 {
     font-size: 36px;
     font-weight: 700;
-    color: #ffffff;
+    color: var(--text-white);
     margin-bottom: 15px;
     position: relative;
     display: inline-block;
 }
 
 .section-header h2 span {
-    color: var(--primary-color, #c4a968);
+    color: var(--primary-color);
     position: relative;
 }
 
@@ -827,12 +828,12 @@ body {
     left: 0;
     width: 100%;
     height: 2px;
-    background: var(--primary-color, #c4a968);
+    background: var(--primary-color);
 }
 
 .section-header p {
     font-size: 16px;
-    color: #a0a0a0;
+    color: var(--text-light);
     max-width: 700px;
     margin: 0 auto;
 }
@@ -844,9 +845,8 @@ body {
     margin-bottom: 40px;
 }
 
-
 .service-card {
-    background: rgba(30, 30, 30, 0.7);
+    background: var(--card-bg);
     border-radius: 16px;
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
@@ -894,7 +894,7 @@ body {
 }
 
 .service-icon i {
-    color: var(--primary-color, #c4a968);
+    color: var(--primary-color);
     font-size: 28px;
     position: relative;
     z-index: 2;
@@ -911,7 +911,7 @@ body {
 }
 
 .service-card h3 {
-    color: var(--primary-color, #c4a968);
+    color: var(--primary-color);
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 12px;
@@ -919,7 +919,7 @@ body {
 }
 
 .service-card p {
-    color: #d4d4d4;
+    color: var(--text-white);
     font-size: 15px;
     line-height: 1.5;
     margin-bottom: 15px;
@@ -934,7 +934,7 @@ body {
 
 .service-features span {
     background: rgba(196, 169, 104, 0.1);
-    color: var(--primary-color, #c4a968);
+    color: var(--primary-color);
     font-size: 12px;
     font-weight: 500;
     padding: 5px 10px;
@@ -945,7 +945,7 @@ body {
 .service-overlay {
     position: absolute;
     inset: 0;
-    background: linear-gradient(to bottom, rgba(20, 20, 20, 0.95), rgba(30, 30, 30, 0.98));
+    background: linear-gradient(to bottom, rgba(10, 31, 68, 0.95), rgba(23, 26, 34, 0.98));
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -965,7 +965,7 @@ body {
 }
 
 .service-overlay p {
-    color: #f0f0f0;
+    color: var(--text-white);
     text-align: center;
     margin-bottom: 20px;
     font-size: 15px;
@@ -975,8 +975,8 @@ body {
 }
 
 .service-btn {
-    background: var(--primary-color, #c4a968);
-    color: #121212;
+    background: var(--primary-color);
+    color: var(--secondary-color);
     font-weight: 600;
     text-decoration: none;
     padding: 10px 24px;
@@ -1017,12 +1017,12 @@ body {
 
 .primary-btn {
     background: transparent;
-    color: var(--primary-color, #c4a968);
+    color: var(--primary-color);
     font-weight: 600;
     text-decoration: none;
     padding: 14px 32px;
     border-radius: 30px;
-    border: 2px solid var(--primary-color, #c4a968);
+    border: 2px solid var(--primary-color);
     display: inline-block;
     position: relative;
     overflow: hidden;
@@ -1039,13 +1039,13 @@ body {
     left: -100%;
     width: 100%;
     height: 100%;
-    background: var(--primary-color, #c4a968);
+    background: var(--primary-color);
     transition: all 0.4s ease;
     z-index: -1;
 }
 
 .primary-btn:hover {
-    color: #121212;
+    color: var(--secondary-color);
 }
 
 .primary-btn:hover::before {
