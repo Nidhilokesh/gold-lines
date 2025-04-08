@@ -86,7 +86,7 @@
                         <i class="fas fa-truck"></i>
                     </div>
                     <h3>Logistic & Transport</h3>
-                    <p>Efficient and reliable logistics and transport solutions, ensuring seamless movement of goods, supplies, and equipment with precision and speed.</p>
+                    <p>Efficient and reliable logistics and transport solutions.</p>
                     <a href="transport.php" class="service-learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
                 </div>
 
@@ -174,6 +174,107 @@
             <!-- <div class="explore-projects">
                 <a href="network.php" class="explore-projects-btn">EXPLORE ALL DATA SERVICES</a>
             </div> -->
+        </div>
+    </section>
+
+    <section class="featured-services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Data <span>Connectivity</span></h2>
+            </div>
+            
+            <div class="services-container">
+                <!-- Service Card 1 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Dedicated Internet Access</h3>
+                        <p>High-speed, secure connectivity for enterprises</p>
+                        <div class="service-features">
+                            <span>High Speed</span>
+                            <span>Secure</span>
+                        </div>
+                    </div>
+                    <div class="service-overlay">
+                        <p>GLC delivers high-speed, secure Dedicated Internet Access (DIA) tailored for enterprises seeking unparalleled network performance and reliability.</p>
+                    </div>
+                </div>
+                
+                <!-- Service Card 2 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>IP VPN L3</h3>
+                        <p>Robust wireless connectivity solutions</p>
+                        <div class="service-features">
+                            <span>Robust</span>
+                            <span>High Performance</span>
+                        </div>
+                    </div>
+                    <div class="service-overlay">
+                        <p>GLC offers IP VPNs it is a robust, scalable, secure, and efficient communication solution.</p>
+                    </div>
+                </div>
+                
+                <!-- Service Card 3 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>L2 Service</h3>
+                        <p>Advanced network infrastructure solutions</p>
+                        <div class="service-features">
+                            <span>Scalability</span>
+                            <span>Reliability</span>
+                        </div>
+                    </div>
+                    <div class="service-overlay">
+                        <p>Golden Lines offer (Pseudo Leased Line) Layer 2 service is a VPN connectivity solution that offers enhanced privacy and security.</p>
+                    </div>
+                </div>
+                
+                <!-- Service Card 4 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>SD-WAN</h3>
+                        <p>Virtual architecture design</p>
+                        <div class="service-features">
+                            <span>Cost Saving</span>
+                            <span>Network Optimizaion</span>
+                        </div>
+                    </div>
+                    <div class="service-overlay">
+                        <p>GLC offers SD-WAN which is a virtual architecture designed to provide enterprises with flexible, resilient, and optimized wide-area network connectivity</p>
+                    </div>
+                </div>
+                
+                <!-- Service Card 5 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-broadcast-tower"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>4G & 5G Router</h3>
+                        <p>Point to Point and scalable service</p>
+                        <div class="service-features">
+                            <span>Reliable</span>
+                            <span>High Speed</span>
+                        </div>
+                    </div>
+                    <div class="service-overlay">
+                        <p>GLC offers 4G & 5G routers that connects two locations directly ensuring secure and private communication</p>
+                    </div>
+                </div>
+            </div>
+            
         </div>
     </section>
     
