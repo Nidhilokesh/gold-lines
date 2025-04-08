@@ -90,19 +90,19 @@
                     <a href="transport.php" class="service-learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
                 </div>
 
-                <!-- <div class="service-card fade-in">
+                <div class="service-card fade-in">
                     <div class="service-icon">
                         <i class="fas fa-tools"></i>
                     </div>
                     <h3>OSP Infrastructure Installation & Maintenance </h3>
-                    <p>Comprehensive OSP infrastructure installation and maintenance services, ensuring seamless connectivity, reliable network expansion, and long-term system efficiency.</p>
+                    <p>Comprehensive OSP infrastructure installation and maintenance services.</p>
                     <a href="osp.php" class="service-learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
-                </div> -->
+                </div>
             </div>
 
-            <div class="explore-services fade-in">
+            <!-- <div class="explore-services fade-in">
                 <a href="osp.php" class="explore-services-btn">EXPLORE ALL OUR SERVICES</a>
-            </div>
+            </div> -->
         </div>
     </section>
 
@@ -110,7 +110,7 @@
     <section class="featured-projects" id="projects">
         <div class="container">
             <div class="section-header">
-                <h2>Data <span> Services</span></h2>
+                <h2>ICT <span> Services</span></h2>
                 
             </div>
 
@@ -118,14 +118,14 @@
                 <div class="project-card">
                     <div class="project-main-content">
                         <div class="project-icon">
-                            <i class="fas fa-globe"></i>
+                            <i class="fas fa-lightbulb"></i> 
                         </div>
-                        <h3>Dedicated Internet Acess</h3>
+                        <h3>Innovation Services</h3>
                     </div>
                     <div class="project-details">
-                        <h4>High Speed Connectivity| Secure communication</h4>
-                        <p>Golden Lines Company delivers high-speed, secure Dedicated Internet Access (DIA) tailored for enterprises seeking unparalleled network performance and reliability.</p>
-                        <a href="DIA.php" class="service-learn-more">Learn More <i class="fas fa-caret-right"></i></a>
+                        <h4>Modern Technology | Agile Solutions</h4>
+                        <p>Golden Lines Company delivers innovative solutions empower businesses with cutting-edge technology services across software development, cybersecurity, data engineering, and professional consulting.</p>
+                        <a href="innovation.php" class="service-learn-more">Learn More <i class="fas fa-caret-right"></i></a>
                     </div>
                 </div>
 
@@ -146,23 +146,9 @@
                 <div class="project-card">
                     <div class="project-main-content">
                         <div class="project-icon">
-                            <i class="fas fa-server"></i>
-                        </div>
-                        <h3>IPVPN Services</h3>
-                    </div>
-                    <div class="project-details">
-                        <h4>Reduced Latency| Efficient Traffic Routing</h4>
-                        <p>GLC offers cutting-edge IPVPN services designed to transform your network infrastructure with Layer 3 and Layer 2 VPN solutions.</p>
-                        <a href="ipvpn.php" class="service-learn-more">Learn More <i class="fas fa-caret-right"></i></a>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-main-content">
-                        <div class="project-icon">
                             <i class="fas fa-cloud-upload-alt"></i>
                         </div>
-                        <h3>Cloud Services</h3>
+                        <h3>Cloud Computing</h3>
                     </div>
                     <div class="project-details">
                         <h4>Iaas | Paas</h4>
@@ -174,20 +160,20 @@
                 <div class="project-card">
                     <div class="project-main-content">
                         <div class="project-icon">
-                            <i class="fas fa-laptop-code"></i>
+                            <i class="fas fa-plug"></i> 
                         </div>
-                        <h3>ICT Services</h3>
+                        <h3>Low Current Services</h3>
                     </div>
                     <div class="project-details">
-                        <h4>Real-time Customized Dashboards | Productivity</h4>
-                        <p>GLC is your strategic partner in delivering advanced Information and Communications Technology (ICT) solutions, tailor-made to empower businesses across Saudi Arabia.</p>
-                        <a href="ict.php" class="service-learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                        <h4>High Speed Connectivity | Secure Communication</h4>
+                        <p> GLC is empowering modern infrastructures with advanced low current systems that integrate building automation, security, and data networks seamlessly.</p>
+                        <a href="network.php" class="service-learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
-            <div class="explore-projects">
+            <!-- <div class="explore-projects">
                 <a href="network.php" class="explore-projects-btn">EXPLORE ALL DATA SERVICES</a>
-            </div>
+            </div> -->
         </div>
     </section>
     

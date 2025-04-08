@@ -18,11 +18,11 @@
   <!-- Enhanced About Hero Section -->
   <section class="about-hero zoom-me">
     <div class="hero-content container">
-      <h1 class="animate-on-scroll">Golden Lines Company</h1>
+      <!-- <h1 class="animate-on-scroll">Golden Lines Contracting</h1> -->
       <!-- <p class="animate-on-scroll">
         A premier end-to-end services provider and contractor.
         We bring unparalleled attention to detail, commitment to quality, and innovative solutions that transform challenges into success.
-      </p>
+      </p> -->
       
       <div class="hero-details">
         <div class="hero-detail-card">
@@ -37,7 +37,7 @@
           <h4>Commitment</h4>
           <p>Delivering innovation-driven solutions with integrity</p>
         </div>
-      </div> -->
+      </div>
     </div>
   </section>
 
