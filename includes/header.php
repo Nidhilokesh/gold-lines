@@ -36,7 +36,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
 
                   <li><a href="aboutus.php" class="nav__link <?= ($current_page == 'aboutus.php') ? 'active' : ''; ?>">About Us</a></li>
 
-                  <li><a href="aboutus.php" class="nav__link <?= ($current_page == 'aboutus.php') ? 'active' : ''; ?>">Data Services</a></li>
+                  <li><a href="dataservice.php" class="nav__link <?= ($current_page == 'dataservice.php') ? 'active' : ''; ?>">Data Services</a></li>
 
                   <!--=============== DROPDOWN 1 ===============-->
                   <li class="dropdown__item">
