@@ -7,7 +7,7 @@
 
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --black-color: hsl(240, 100%, 0%);
+  --black-color: #113370;
   --black-color-light: hsl(223, 11%, 12%);
   --black-color-lighten: hsl(218, 20%, 8%);
   --white-color: #fff;
