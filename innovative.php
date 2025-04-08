@@ -12,8 +12,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 </head>
+<style>
+    .hero {
+        background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/innovative.jpg') no-repeat center center/cover;
+        color: var(--text-white);
+        text-align: center;
+        padding: 120px 15px;
+        position: relative;
+        overflow: hidden;
+    }
+</style>
+
 <body>
-    <section class="hero fade-in" style="padding-top: 6rem; padding-bottom:1rem; ">
+    <section class="hero fade-in">
         <div class="hero-content" >
             <h1 class="fade-in">INNOVATIVE SOLUTIONS  </h1>
         </div>

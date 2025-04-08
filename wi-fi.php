@@ -31,7 +31,7 @@
                     </div>                    
                 </div>
                 <div class="itc-services-image">
-                    <img src="images/cloud.png" alt="Cloud Infrastructure Illustration">
+                    <img src="images/wifi1.jpg" alt="wifi" style="width:90%; height:auto;">
                 </div>
             </div>
         </div>
@@ -52,13 +52,22 @@
                     <p> Let us help you leverage the power of Wi-Fi technology to take your business to the next level</p>
                 </div>
                 <div class="itc-services-image">
-                    <img src="images/cloud3.png" alt="Cloud Infrastructure Illustration">
+                    <img src="images/wifi3.jpg" alt="wifi" style="width:70%; height:auto;">
                 </div>
             </div>
         </div>
 
         <div class="divider "></div>
 
+    </section>
+    <section class="cta-section">
+        <div class="cta-card">
+            <div class="cta-content">
+                <h2 class="cta-heading"> Let's Build Your Vision Together.</h2>
+                <p class="cta-text">Backed by a proven history of excellence and a commitment to delivering tangible value, Golden Lines Company is your trusted partner for success in the Kingdom of Saudi Arabia and beyond.</p>
+                <a href="contact.php" class="cta-button">Contact Us Today</a>
+            </div>
+        </div>
     </section>
 
     <script>

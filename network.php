@@ -23,7 +23,7 @@
                         <p>GLC provides Cabling and Networking management The cable is the primary medium for transmitting information between network devices, playing a crucial role in local area networks (LANs). LANs utilize various types of wires, and the line choice depends on network topology, protocol, and size. Understanding the characteristics of different cable types is essential for building a successful network.</p>
                 </div>
                 <div class="itc-services-image">
-                    <img src="images/network1.jpg" alt="Cloud Infrastructure Illustration">
+                    <img src="images/network1.jpg" alt="Cabling and Networking Works" style="width:90%; height:auto;">
                 </div>
             </div>
         </div>
@@ -31,7 +31,7 @@
         <div class="itc-services-container">
             <div class="itc-services-content">
                 <div class="itc-services-image">
-                    <img src="images/network2.jpg" alt="Cloud Infrastructure Illustration">
+                    <img src="images/network2.jpg" alt="CCTV Cameras" style="width:90%; height:auto;">
                 </div>
                 <div class="itc-services-text">
                     <h3>CCTV Cameras</h3>
@@ -43,20 +43,28 @@
         <div class="itc-services-container">
             <div class="itc-services-content">
                 <div class="itc-services-text">
-                    <h3>Interactive LED Screenss</h3>
+                    <h3>Interactive LED Screens</h3>
                     <p>GLC offers its clients Interactive LED screens and advanced display devices that combine LED technology with touch-sensitive capabilities to create a dynamic and engaging user experience. These screens allow users to interact directly with the content displayed on the net through touch gestures, such as tapping, swiping, and pinching. Interactive LED screens enable active participation and engagement.
                          Users can navigate through menus, interact with multimedia elements, draw, write, annotate, and perform various actions directly on the screen. This interactivity enhances communication, collaboration, and user immersion.</p>
                     <p>GOLDEN LINES COMPANY Technologies fully comprehends that and hence offers cutting-edge Digital Signage Solutions for indoor and outdoor supply and installation, including a license that has an HD screen cased in a robust body and when placed correctly within an outlet can significantly.</p>
                 </div>
                 <div class="itc-services-image">
-                    <img src="images/network3.jpg" alt="Cloud Infrastructure Illustration">
+                    <img src="images/network3.jpg" alt="Interactive LED Screens" style="width:90%; height:auto;">
                 </div>
             </div>
         </div>
         
 
     </section>
-
+    <section class="cta-section">
+        <div class="cta-card">
+            <div class="cta-content">
+                <h2 class="cta-heading"> Let's Build Your Vision Together.</h2>
+                <p class="cta-text">Backed by a proven history of excellence and a commitment to delivering tangible value, Golden Lines Company is your trusted partner for success in the Kingdom of Saudi Arabia and beyond.</p>
+                <a href="contact.php" class="cta-button">Contact Us Today</a>
+            </div>
+        </div>
+    </section>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
     const observerOptions = {
