@@ -441,10 +441,6 @@
         </div>
         
         <div class="itc-services-container">
-            <h3>Enterprise-Grade Connectivity Solutions</h3>
-            <p>Golden Lines Company offers comprehensive data services tailored to meet the unique needs of businesses of all sizes. Our enterprise-grade solutions provide the backbone for your digital operations, ensuring seamless connectivity, security, and performance.</p>
-            <p>Whether you're looking for dedicated internet access, secure VPN connections, or advanced SD-WAN solutions, our team of experts will design and implement the perfect solution for your business requirements.</p>
-            
             <div class="itc-services-content">
                 <div class="itc-services-text">
                     <h3>Dedicated Internet Access (DIA)</h3>
@@ -576,13 +572,6 @@
         </div>
     </section>
     
-    <section class="cta-section">
-        <div class="cta-content">
-            <h2>Ready to Transform Your Network Infrastructure?</h2>
-            <p>Contact our team of experts to discover the perfect data service solution for your business needs.</p>
-            <button class="cta-button">Get Started Today</button>
-        </div>
-    </section>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script>
