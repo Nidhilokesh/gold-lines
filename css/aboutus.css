@@ -249,7 +249,7 @@
     line-height: 1.6;
   }
   
-  /* clients */
+  /* partners */
 
   .partners h2 {
     font-size: 42px;
@@ -276,7 +276,7 @@
     max-width: 100%;
     display: block;
     margin: 20px auto;
-    border-radius: 5px;
+    border-radius: 10px;
   }
   
   /* Leadership Section */
@@ -489,6 +489,7 @@
     width: auto;
     max-width: none;
     object-fit: contain;
+    border-radius: 8px;
 }
 
 .marqueelogo#big {
