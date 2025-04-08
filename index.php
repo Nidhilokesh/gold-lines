@@ -259,10 +259,10 @@
                 <!-- Service Card 5 -->
                 <div class="service-card">
                     <div class="service-icon">
-                        <i class="fas fa-broadcast-tower"></i>
+                        <i class="fas fa-network-wired"></i>
                     </div>
                     <div class="service-content">
-                        <h3>4G & 5G Router</h3>
+                        <h3>PLL Service</h3>
                         <p>Point to Point and scalable service</p>
                         <div class="service-features">
                             <span>Reliable</span>
@@ -270,7 +270,7 @@
                         </div>
                     </div>
                     <div class="service-overlay">
-                        <p>GLC offers 4G & 5G routers that connects two locations directly ensuring secure and private communication</p>
+                        <p>GLC offers PLL Service that connects two locations directly ensuring secure and private communication</p>
                     </div>
                 </div>
             </div>
