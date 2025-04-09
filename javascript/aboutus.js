@@ -36,8 +36,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const prevBtn = document.getElementById(prevBtnId);
     const nextBtn = document.getElementById(nextBtnId);
     
-    if (!track || !prevBtn || !nextBtn) return;
-    
     let currentIndex = 0;
     const slideWidth = 250 + 30; // slide width plus margin
 
@@ -86,23 +84,4 @@ document.addEventListener('DOMContentLoaded', function() {
     '/api/placeholder/200/100?text=Client+5'
   ];
   initSlider('clientsTrack', 'clientsPrev', 'clientsNext', clientLogos);
-  
-  // === HERO ZOOM EFFECT INTEGRATION ===
-  // Add zoom effect to the about-hero section when scrolling
-  $(window).scroll(function() {
-    // Get the current scroll position
-    var scroll = $(window).scrollTop();
-    
-    // Select the hero image and apply transformations
-    $(".about-hero").css({
-      "background-size": (100 + scroll/10) + "%",
-      "background-position": "center " + (-(scroll/20)) + "%"
-    });
-    
-    // Add a slight blur effect as user scrolls
-    $(".about-hero::before").css({
-      "-webkit-filter": "blur(" + (scroll/200) + "px)",
-      "filter": "blur(" + (scroll/200) + "px)"
-    });
-  });
 });
