@@ -33,7 +33,7 @@
                     </div>                    
                 </div>
                 <div class="itc-services-image">
-                    <img src="images/dia.jpg" alt="dedicated internet access" style="width:90%; height:auto;">
+                    <img src="images/dia.png" alt="dedicated internet access" style="width:90%; height:auto;">
                 </div>
             </div>
         </div>
@@ -42,6 +42,10 @@
         
         <div class="itc-services-container">
             <div class="itc-services-content">
+
+            <div class="itc-services-image">
+                <img src="images/vpn.png" alt="VPN services" style="width:90%; height:auto;">
+            </div>
                 <div class="itc-services-text">
                     <h3>IP VPN L3</h3>
                     <p>IP VPN Internet Protocol Virtual Private Network L3 revolutionizes network connectivity through its peer-to-peer model, utilizing Border Gateway Protocol (BGP) to distribute VPN-related information. IP VPNs offer a robust, scalable, secure, and efficient communication solution.</p>
@@ -55,9 +59,9 @@
                         </ul>
                     </div>
                 </div>
-                <div class="itc-services-image">
-                    <img src="images/vpn.jpg" alt="VPN services" style="width:90%; height:auto;">
-                </div>
+                <!-- <div class="itc-services-image">
+                    <img src="images/vpn.png" alt="VPN services" style="width:90%; height:auto;">
+                </div> -->
             </div>
         </div>
 
@@ -80,7 +84,7 @@
                     </div>                    
                 </div>
                 <div class="itc-services-image">
-                    <img src="images/l2service.jpg" alt="L2 Service" style="width:90%; height:auto;">
+                    <img src="images/l2.png" alt="L2 Service" style="width:90%; height:auto;">
                 </div>
             </div>
         </div>
@@ -89,6 +93,9 @@
         
         <div class="itc-services-container">
             <div class="itc-services-content">
+                <div class="itc-services-image">
+                    <img src="images/sd.png" alt="SD-WAN" style="width:90%; height:auto;">
+                </div>
                 <div class="itc-services-text">
                     <h3>SD-WAN</h3>
                     <p>Golden Lines Company GLC offers a Software-defined Wide Area Network (SD-WAN), a virtual architecture for wide area networks that allows enterprises to utilize a combination of transport services.</p>
@@ -102,9 +109,6 @@
                             <li>Simplified administration and troubleshooting</li>
                         </ul>
                     </div>
-                </div>
-                <div class="itc-services-image">
-                    <img src="images/sdwan.jpg" alt="SD-WAN" style="width:90%; height:auto;">
                 </div>
             </div>
         </div>
@@ -127,9 +131,9 @@
                     </div>
                     <p>Let us help you leverage the power of our advanced data services to take your business to the next level.</p>
                 </div>
-                <div class="itc-services-image">
+                <!-- <div class="itc-services-image">
                     <img src="images/benefits.jpg" alt="Data Service Benefits" style="width:70%; height:auto;">
-                </div>
+                </div> -->
             </div>
         </div>
 
