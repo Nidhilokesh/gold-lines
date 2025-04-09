@@ -366,39 +366,38 @@
                             <input type="checkbox" name="services[]" value="Data Services"> Data Services
                             <div class="nested-services">
                                 <label>
-                                    <input type="checkbox" name="services[]" value="IT and Telecom Services"> IT and Telecom Services
-                                    <div class="nested-services">
-                                        <label>
-                                            <input type="checkbox" name="services[]" value="Dedicated Internet Access"> Dedicated Internet Access
-                                        </label>
-                                        <label>
-                                            <input type="checkbox" name="services[]" value="Wifi Solution"> Wifi Solution
-                                        </label>
-                                        <label>
-                                            <input type="checkbox" name="services[]" value="IPVPN (L3 and L2)"> IPVPN (L3 and L2)
-                                        </label>
-                                    </div>
+                                    <input type="checkbox" name="services[]" value="Dedicated Internet Access"> Dedicated Internet Access
                                 </label>
-                                
                                 <label>
-                                    <input type="checkbox" name="services[]" value="ICT Services"> ICT Services
-                                    <div class="nested-services">
-                                        <label>
-                                            <input type="checkbox" name="services[]" value="ICT Solution"> ICT Solution
-                                        </label>
-                                        <label>
-                                            <input type="checkbox" name="services[]" value="Cloud Services"> Cloud Services
-                                        </label>
-                                        <label>
-                                            <input type="checkbox" name="services[]" value="Networking"> Networking
-                                        </label>
-                                        <label>
-                                            <input type="checkbox" name="services[]" value="CCTV & LED Screens"> CCTV & LED Screens
-                                        </label>
-                                    </div>
+                                    <input type="checkbox" name="services[]" value="IPVPN (L3 and L2)"> IPVPN (L3 and L2)
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="services[]" value="PLL L2 Services"> PLL L2 Services
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="services[]" value="SD-WAN"> SD-WAN
                                 </label>
                             </div>
                         </label>
+                        <label>
+                            <input type="checkbox" name="services[]" value="ICT Services"> ICT Services
+                            <div class="nested-services">
+                                <label>
+                                    <input type="checkbox" name="services[]" value="Cloud Computing"> Cloud Computing
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="services[]" value="WI-FI Solution"> WI-FI Solution
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="services[]" value="Low current"> Low current
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="services[]" value="Innovative Solutions"> Innovative Solutions
+                                </label>
+                            </div>
+                        </label>
+                     
+                         
                     </div>
                 </div>
                 
