@@ -229,7 +229,7 @@
                     <p>At Golden Lines Company, we recognize that every business is unique. That’s why we offer a wide range of fully customized ICT solutions to meet your needs.</p>
                 </div>
                 <div class="itc-services-image">
-                    <img src="images/network1.jpg" alt="Cloud Infrastructure Illustration">
+                    <img src="images/dia2.webp" alt="Cloud Infrastructure Illustration">
                 </div>
             </div>
         </div>
@@ -296,7 +296,7 @@
                 <div class="service-details">
                     <h4>Software Engineering | Cyber Security</h4>
                     <p>Golden Lines Company delivers innovative solutions empower businesses with cutting-edge technology services across software development, cybersecurity, data engineering, and professional consulting.</p>
-                    <a href="innovation.php" class="service-learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                    <a href="innovative.php" class="service-learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
         </div>

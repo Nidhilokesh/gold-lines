@@ -14,7 +14,7 @@
 
 .site-footer {
     background-color: var(--dark-bg);
-    background-image: linear-gradient(45deg, #0A1F44, #113370);
+    background-image: linear-gradient(45deg,#000C2A, #113370);
     color: var(--text-light);
     padding: 1.5rem 1.5rem;
     font-family: 'Popins', sans-serif;

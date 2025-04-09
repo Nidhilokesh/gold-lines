@@ -29,20 +29,19 @@
                 <ul>
                     <li><a href="index.php">Home</a></li>
                     <li><a href="aboutus.php">About Us</a></li>
+                    <li><a href="DIA.php">Data Services</a></li>
+                    <li><a href="ict.php">ICT Services</a></li>
                     <li><a href="contact.php">Contact Us</a></li>
                 </ul>
             </div>
 
             <div class="footer-section">
-                <h3 class="section-heading">Data Services</h3>
+                <h3 class="section-heading">ICT Services</h3>
                 <ul>
-                    <li><a href="DIA.php">DIA</a></li>
-                    <li><a href="wi-fi.php">Wi-Fi Solutions</a></li>
-                    <li><a href="ipvpn.php">IPVPN(L3 and L2)</a></li>
-                    <li><a href="ict.php">ICT Solutions</a></li>
                     <li><a href="cloud.php">Cloud Services</a></li>
-                    <li><a href="network.php">Networking, CCTV & LED screens</a></li>
-                    <li><a href="nutshell.php">Services part in Nutshell</a></li>
+                    <li><a href="wi-fi.php">Wi-Fi Solutions</a></li>
+                    <li><a href="network.php">Low Current Services</a></li>
+                    <li><a href="nutshell.php">Innovative Solutions</a></li>
                 </ul>
             </div>
 

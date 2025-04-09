@@ -31,7 +31,7 @@
         <div class="itc-services-container">
             <div class="itc-services-content">
                 <div class="itc-services-image">
-                    <img src="images/network2.jpg" alt="CCTV Cameras" style="width:90%; height:auto;">
+                    <img src="images/cctv.avif" alt="CCTV Cameras" style="width:90%; height:auto;">
                 </div>
                 <div class="itc-services-text">
                     <h3>CCTV Cameras</h3>
@@ -49,7 +49,7 @@
                     <p>GOLDEN LINES COMPANY Technologies fully comprehends that and hence offers cutting-edge Digital Signage Solutions for indoor and outdoor supply and installation, including a license that has an HD screen cased in a robust body and when placed correctly within an outlet can significantly.</p>
                 </div>
                 <div class="itc-services-image">
-                    <img src="images/network3.jpg" alt="Interactive LED Screens" style="width:90%; height:auto;">
+                    <img src="images/led.jpg" alt="Interactive LED Screens" style="width:90%; height:auto;">
                 </div>
             </div>
         </div>

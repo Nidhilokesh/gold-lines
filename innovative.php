@@ -14,7 +14,7 @@
 </head>
 <style>
     .hero {
-        background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/innovative.jpg') no-repeat center center/cover;
+        background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/dia1.webp') no-repeat center center/cover;
         color: var(--text-white);
         text-align: center;
         padding: 120px 15px;

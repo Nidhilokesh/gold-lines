@@ -12,6 +12,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
+    <style>
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/osp.png') no-repeat center center/cover;
+            color: var(--text-white);
+            text-align: center;
+            padding: 120px 15px;
+            position: relative;
+            overflow: hidden;
+        }
+    </style>
 </head>
 <body>
     <!-- Hero Section -->
