@@ -1,4 +1,10 @@
 
+<?php
+  include 'includes/header.php';
+?>
+<?php
+  include 'includes/slider.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,16 +13,10 @@
     <title>Golden Lines Company</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-<?php
-  include 'includes/header.php';
-?>
-<?php
-  include 'includes/slider.php';
-?>
-
 
 <div class="preloader">
   <div class="preloader__content">
@@ -36,7 +36,7 @@
     <!-- Service Focus Areas Section -->
     <section class="service-focus section-stagger" id="service-focus">
         <div class="container service-focus-content">
-            <h2>OUR <span>SERVICE FOCUS</span> AREAS</h2>
+            <h2 style="font-family: 'Poppins', sans-serif;">OUR <span>SERVICE FOCUS</span> AREAS</h2>
             <p>We pride on creating long-term relationships and adding value-driven innovation and efficiency across all projects we undertake in our diverse service focus areas. That's the reason our vast majority of clients consistently re-hire us.</p>
         </div>
     </section>
@@ -110,8 +110,7 @@
     <section class="featured-projects" id="projects">
         <div class="container">
             <div class="section-header">
-                <h2>ICT <span> Services</span></h2>
-                
+                <h2 class="ict-heading">ICT <span>Services</span></h2>
             </div>
 
             <div class="projects-grid">
@@ -180,7 +179,7 @@
     <section class="featured-services" id="services1">
         <div class="container">
             <div class="section-header">
-                <h2>Data <span>Connectivity</span></h2>
+                <h2 style="font-family: 'Poppins', sans-serif; margin-top: -30px;">Data <span>Connectivity</span></h2>
             </div>
             
             <div class="services-container">
@@ -259,8 +258,7 @@
     </section>
 
     <div class="section-header">
-        <h2>Our <span>Clients</span></h2>
-                
+        <h2 style="font-family: 'Poppins', sans-serif; margin-top: 60px;">Our <span>Clients</span></h2>            
     </div>
 
     <section class="logoMarqueeSection">
