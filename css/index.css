@@ -1245,3 +1245,16 @@ body {
         font-size: 13px;
     }
 }
+
+
+.ict-heading {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 60px;
+}
+
+/* Optional if you want to target specific devices */
+@media (min-width: 320px) and (max-width: 1200px) {
+    .ict-heading {
+        margin-top: 5px;
+    }
+}
