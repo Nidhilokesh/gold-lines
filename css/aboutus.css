@@ -54,8 +54,8 @@
     align-items: center;
     justify-content: center;
     background: 
-      linear-gradient(rgba(21, 21, 21, 0.8), rgba(21, 21, 21, 0.8)),
-      url('https://png.pngtree.com/thumb_back/fh260/background/20230702/pngtree-3d-rendered-abstract-tech-background-with-a-dark-theme-image_3739440.jpg') no-repeat center center/cover;
+      linear-gradient(rgba(22, 49, 97, 0.8), rgba(15, 42, 92, 0.8)),
+      url('../images/a.png') no-repeat center center / cover;
     overflow: hidden;
     perspective: 1000px;
   }
@@ -66,7 +66,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(21, 21, 21, 0.65);
+    background:  rgba(15, 42, 92, 0.65);
     z-index: 1;
   }
   
@@ -81,7 +81,7 @@
     max-width: 1000px;
     padding: 40px;
     margin-top: 1rem;
-    background: rgba(30, 30, 30, 0.7);
+    background: rgb(0, 12, 42, 0.7);  
     border-radius: 20px;
     box-shadow: 0 15px 35px rgba(0,0,0,0.4);
     transition: all 0.6s ease;
@@ -157,7 +157,7 @@
     }
   }
   .hero-detail-card {
-    background: rgba(30, 30, 30, 0.7);
+    background: rgb(15, 42, 92, 0.7);
     border: 1px solid rgba(196, 169, 104, 0.2);
     border-radius: 10px;
     padding: 20px;
@@ -600,54 +600,3 @@
         width:10rem;
     }
   }
-  
-  /* Add these styles to your aboutus.css file */
-
-/* Hero Zoom Effect Modifications */
-.about-hero {
-  position: relative;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: 
-    url('https://unsplash.it/1200/800?image=838') no-repeat center center;
-  background-size: 100%;
-  overflow: hidden;
-  perspective: 1000px;
-  transition: background-size 0.1s ease-out;
-}
-
-.about-hero::before {
-  content: "";
-  position: absolute;
-  top: 0; 
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(21, 21, 21, 0.65);
-  z-index: 1;
-  transition: filter 0.1s ease-out;
-}
-
-/* Smooth transition for hero content when scrolling */
-.hero-content {
-  transition: transform 0.3s ease-out, opacity 0.3s ease-out;
-}
-
-/* Optional: Add a slight parallax effect to the detail cards */
-.hero-details {
-  position: relative;
-  z-index: 2;
-}
-
-.hero-detail-card {
-  transition: transform 0.4s ease, opacity 0.4s ease;
-}
-
-/* Add progressively fading effect when scrolling */
-@keyframes fadeOutOnScroll {
-  from { opacity: 1; }
-  to { opacity: 0.3; }
-}
-
