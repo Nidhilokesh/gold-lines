@@ -229,7 +229,7 @@
                     <p>At Golden Lines Company, we recognize that every business is unique. That’s why we offer a wide range of fully customized ICT solutions to meet your needs.</p>
                 </div>
                 <div class="itc-services-image">
-                    <img src="images/dia2.webp" alt="Cloud Infrastructure Illustration">
+                    <img src="images/dia2.webp" alt="Cloud Infrastructure Illustration" style="width:70%; height:auto;" >
                 </div>
             </div>
         </div>

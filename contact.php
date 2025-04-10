@@ -30,7 +30,7 @@
         body {
             margin: 0;
             padding: 0;
-            font-family: Arial, sans-serif;
+            font-family: 'Poppins', sans-serif;
         }
 
         /* Container styling with margin-top to prevent header overlap */
