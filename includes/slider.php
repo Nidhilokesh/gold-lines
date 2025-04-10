@@ -298,6 +298,7 @@
       height: 22px;
       width: 22px;
       margin-right: 8px;
+      margin-top: 7px;
     }
 
     a:hover {
