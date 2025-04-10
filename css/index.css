@@ -592,8 +592,9 @@ body {
     }
 
     .explore-projects-btn {
-        width: 100%;
+        width: 80%;
         padding: 14px 20px;
+        font-size: 12px;
     }
 
     .explore-services-btn {
