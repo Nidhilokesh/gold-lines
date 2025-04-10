@@ -357,7 +357,7 @@
                                     <input type="checkbox" name="services[]" value="Logistic & Transport"> Logistic & Transport
                                 </label>
                                 <label>
-                                    <input type="checkbox" name="services[]" value="OSP Infrastructure Installation & Maintenance"> OSP Infrastructure Installation & Maintenance
+                                    <input type="checkbox" name="services[]" value="OSP Infrastructure Installation & Maintenance"> OSP Installation & Maintenance
                                 </label>
                             </div>
                         </label>
