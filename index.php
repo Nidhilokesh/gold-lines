@@ -177,7 +177,7 @@
         </div>
     </section>
 
-    <section class="featured-services" id="services">
+    <section class="featured-services" id="services1">
         <div class="container">
             <div class="section-header">
                 <h2>Data <span>Connectivity</span></h2>
