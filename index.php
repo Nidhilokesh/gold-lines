@@ -170,9 +170,9 @@
                     </div>
                 </div>
             </div>
-            <!-- <div class="explore-projects">
-                <a href="network.php" class="explore-projects-btn">EXPLORE ALL DATA SERVICES</a>
-            </div> -->
+            <div class="explore-projects">
+                <a href="ict.php" class="explore-projects-btn">EXPLORE ALL ICT SERVICES</a>
+            </div>
         </div>
     </section>
 
@@ -253,8 +253,14 @@
                     <div class="service-overlay">
                         <p>GLC offers SD-WAN which is a virtual architecture designed to provide enterprises with flexible, resilient, and optimized wide-area network connectivity</p>
                     </div>
-                </div>          
-        </div>
+                </div>
+                
+            </div>
+
+            <div class="explore-projects">
+                <a href="dataservice.php" class="explore-projects-btn">EXPLORE ALL DATA SERVICES</a>
+            </div>
+        <div>
     </section>
 
     <div class="section-header">
