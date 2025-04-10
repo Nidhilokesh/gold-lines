@@ -103,6 +103,7 @@
     opacity: 0;
     transform: translateY(50px);
     animation: heroTitleAnimation 1.2s ease forwards;
+    line-height: 1.2;
   }
   @keyframes heroTitleAnimation {
     0% {

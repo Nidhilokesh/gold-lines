@@ -31,7 +31,7 @@ body {
 /* New Service Focus Section */
 .service-focus {
     padding: 80px 0;
-    background: linear-gradient(135deg,  #0A1F44 0%, var(--secondary-color) 100%);
+    /* background: linear-gradient(135deg,  #0A1F44 0%, var(--secondary-color) 100%); */
     text-align: center;
     position: relative;
     overflow: hidden;
@@ -88,7 +88,7 @@ body {
 /* Services Section */
 .services {
     padding: 80px 0;
-    background: linear-gradient(135deg, var(--secondary-color) 0%, #121212 100%);
+    /* background: linear-gradient(135deg, var(--secondary-color) 0%, #121212 100%); */
 }
 
 .services-grid {
@@ -762,7 +762,7 @@ body {
   /* Services Section */
   .featured-services {
     padding: 80px 0;
-    background: linear-gradient(135deg, #113370 0%, #0A1F44 100%);
+    /* background: linear-gradient(135deg, #113370 0%, #0A1F44 100%); */
     position: relative;
     overflow: hidden;
 }

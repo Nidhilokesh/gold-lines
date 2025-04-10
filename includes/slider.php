@@ -284,6 +284,7 @@
       border-radius: 50px;
       transition: all 0.3s ease;
       letter-spacing: 0.5px;
+      justify-content:center;
     }
 
     .theme-btn-s3:hover {
@@ -295,9 +296,14 @@
     }
 
     i.fa-chevron-circle-right {
-      height: 22px;
-      width: 22px;
+      display: flex;          
+      justify-content: center; 
+      align-items: center;     
+      height: 16px;
+      width: 16px;
       margin-right: 8px;
+      font-size: 16px;         
+      line-height: 1; 
     }
 
     a:hover {
@@ -335,10 +341,9 @@
 
     /* Mobile View (320px - 767px) */
     @media (max-width: 767px) {
-      /* .hero-slider, .hero-style {
-        height: 100vh;
-        min-height: 400px;
-      } */
+      .hero-slider, .hero-style {
+        height: 85vh;
+      }
 
       .hero-style .slide-title h2 {
         font-size: 2.5rem;

@@ -109,7 +109,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
                         </li>
                         <li>
                             <a href="osp.php" class="dropdown__link <?= ($current_page == 'osp.php') ? 'active' : ''; ?>">
-                                OSP Infrastructure Installation & Maintenance   
+                                OSP Infrastructure Services    
                            </a>
                         </li>
                      </ul>
