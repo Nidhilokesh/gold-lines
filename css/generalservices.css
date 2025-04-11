@@ -168,7 +168,6 @@ body {
 .service-card p {
     color: var(--text-light);
     margin-bottom: 20px;
-    text-align: justify;
 }
 
 .service-card ul {
@@ -280,7 +279,6 @@ body {
     .service-card p {
         font-size: 12px;
         margin-bottom: 10px;
-        text-align: justify;
     }
 
     .service-card ul {
