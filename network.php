@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
     .hero {
-        background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/dia1.webp') no-repeat center center/cover;
+        background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/loww.jpg') no-repeat center center/cover;
         color: var(--text-white);
         text-align: center;
         padding: 120px 15px;
@@ -54,6 +54,28 @@
         to {
             opacity: 1;
             transform: translateY(0);
+        }
+    }
+
+     /* Media Queries for Responsive Design */
+     @media screen and (max-width: 768px) {
+        .hero {
+            padding: 60px 15px;
+        }
+        
+        .hero .hero-content h1 {
+            letter-spacing: 1px;
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        .hero {
+            padding: 40px 10px;
+        }
+        
+        .hero .hero-content h1:after {
+            width: 80%;
+            left: 10%;
         }
     }
 </style>

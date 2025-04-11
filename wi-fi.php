@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
     .hero {
-        background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/dia1.webp') no-repeat center center/cover;
+        background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/wii.jpg') no-repeat center center/cover;
         color: var(--text-white);
         text-align: center;
         padding: 120px 15px;
@@ -56,6 +56,7 @@
             transform: translateY(0);
         }
     }
+    
 </style>
 </head>
 <body>

@@ -1,6 +1,3 @@
-<?php
-  include 'includes/header.php';
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,7 +10,7 @@
     <style>
         /* Hero Section */
         .hero {
-            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/ict-services-bg.jpg') no-repeat center center/cover;
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/ictt.jpg') no-repeat center center/cover;
             color: var(--text-white);
             text-align: center;
             padding: 120px 15px;
@@ -41,6 +38,61 @@
         .service-card:hover {
             transform: translateY(-10px);
             box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+        }
+        
+        /* Custom CSS for Learn More buttons in service cards */
+        .service-card .explore-services-btn {
+            display: inline-block;
+            padding: 12px 25px;
+            background-color: var(--primary-color);
+            color: var(--secondary-color);
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-top: 20px;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+            position: relative;
+            z-index: 10;
+            cursor: pointer;
+        }
+
+        .service-card .explore-services-btn:hover {
+            background-color: var(--text-white);
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(196,169,104,0.3);
+            border-color: var(--primary-color);
+        }
+
+        /* Add focus state for accessibility */
+        .service-card .explore-services-btn:focus {
+            outline: none;
+            box-shadow: 0 0 0 3px rgba(196,169,104,0.5);
+        }
+
+        /* Add active state for when button is clicked */
+        .service-card .explore-services-btn:active {
+            transform: translateY(-2px);
+            box-shadow: 0 3px 6px rgba(196,169,104,0.2);
+        }
+        
+        /* Responsive styles for buttons */
+        @media screen and (max-width: 768px) {
+            .service-card .explore-services-btn {
+                padding: 10px 20px;
+                font-size: 0.9rem;
+                width: 100%;
+                text-align: center;
+            }
+        }
+        
+        @media screen and (max-width: 480px) {
+            .service-card .explore-services-btn {
+                padding: 8px 16px;
+                font-size: 0.8rem;
+            }
         }
         
         .cloud-section {
@@ -200,8 +252,9 @@
         }
     </style>
 </head>
-
 <body>
+    <?php include 'includes/header.php'; ?>
+    
     <!-- Hero Section -->
     <section class="hero fade-in" id="ict-services">
         <div class="hero-content">
@@ -306,10 +359,26 @@
             fadeElements.forEach(element => {
                 observer.observe(element);
             });
+
+            // Add this JavaScript to ensure links are working correctly
+            document.querySelectorAll('.explore-services-btn, .cloud-learn-more, .cta-button').forEach(link => {
+                link.addEventListener('click', function(e) {
+                    const href = this.getAttribute('href');
+                    if(href.startsWith('#')) {
+                        e.preventDefault();
+                        document.querySelector(href).scrollIntoView({
+                            behavior: 'smooth'
+                        });
+                    } else {
+                        // For external links, ensure they work by explicitly setting location
+                        // Uncomment the line below if links still don't work
+                        // window.location.href = href;
+                    }
+                });
+            });
         });
     </script>
+    
+    <?php include 'includes/footer.php'; ?>
 </body>
 </html>
-<?php
-  include 'includes/footer.php';
-?>
