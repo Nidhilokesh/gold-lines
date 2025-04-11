@@ -136,7 +136,7 @@
                         <h3>Wifi solutions</h3>
                     </div>
                     <div class="project-details">
-                        <h4>Robust| High performance</h4>
+                        <h4>Robust | High performance</h4>
                         <p>GLC offers an extensive Wi-Fi solution that empowers indoor and outdoor devices to connect to the internet and communicate wirelessly within a specific range</p>
                         <a href="wi-fi.php" class="service-learn-more">Learn More <i class="fas fa-caret-right"></i></a>
                     </div>
