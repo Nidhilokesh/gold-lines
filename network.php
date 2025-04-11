@@ -11,26 +11,34 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
     .hero {
-        background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/loww.jpg') no-repeat center center/cover;
-        color: var(--text-white);
-        text-align: center;
-        padding: 120px 15px;
-        position: relative;
-        overflow: hidden;
-    }
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/loww.jpg') no-repeat center center/cover;
+            color: var(--text-white);
+            text-align: center;
+            padding: 200px 15px; /* Increased from 120px to 200px */
+            position: relative;
+            overflow: hidden;
+        }
       /* Enhanced Header Text Styling */
       .hero .hero-content h1 {
-        font-size: 3.5rem;
+        /* font-size: 3.5rem;
         font-weight: 700;
         text-transform: uppercase;
         letter-spacing: 4px;
         margin-bottom: 20px;
         text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
         position: relative;
-        display: inline-block;
+        display: inline-block; */
+
+
+        font-size: clamp(28px, 5vw, 54px);
+        margin-bottom: 20px;
+        color: var(--primary-color);
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        text-shadow: 1px 1px 10px var(--primary-color);
     }
     
-    .hero .hero-content h1:after {
+    /* .hero .hero-content h1:after {
         content: '';
         position: absolute;
         width: 60%;
@@ -38,7 +46,7 @@
         background: linear-gradient(90deg, transparent, #fff, transparent);
         bottom: -10px;
         left: 20%;
-    }
+    } */
     
     .hero .hero-content {
         max-width: 800px;
@@ -70,7 +78,7 @@
 
     @media screen and (max-width: 480px) {
         .hero {
-            padding: 40px 10px;
+            padding: 60px 10px;
         }
         
         .hero .hero-content h1:after {

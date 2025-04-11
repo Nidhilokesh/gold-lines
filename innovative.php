@@ -14,13 +14,13 @@
 </head>
 <style>
     .hero {
-        background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/dia1.webp') no-repeat center center/cover;
-        color: var(--text-white);
-        text-align: center;
-        padding: 120px 15px;
-        position: relative;
-        overflow: hidden;
-    }
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/dia1.webp') no-repeat center center/cover;
+            color: var(--text-white);
+            text-align: center;
+            padding: 200px 15px; /* Increased from 120px to 200px */
+            position: relative;
+            overflow: hidden;
+        }
     
 </style>
 

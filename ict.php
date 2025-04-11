@@ -312,7 +312,7 @@
     </section>
 
     <!-- Cloud Section -->
-    <section class="cloud-section fade-in">
+    <!-- <section class="cloud-section fade-in">
         <div class="cloud-content">
             <div class="cloud-text fade-in">
                 <h3>Cloud Solutions</h3>
@@ -323,7 +323,7 @@
                 <img src="images/cloud2.jpeg" alt="Cloud Infrastructure Illustration">
             </div>
         </div>
-    </section>
+    </section> -->
 
    <!-- CTA Section -->
     <section class="cta-section fade-in">
