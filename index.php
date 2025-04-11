@@ -76,8 +76,8 @@
                     <div class="service-icon">
                         <i class="fas fa-heartbeat"></i> 
                     </div>
-                    <h3>Base Life and Support</h3>
-                    <p>Ensuring timely delivery of essential medicines, supplies, and equipment for critical care and life support.</p>
+                    <h3>Base Life Support</h3>
+                    <p>We offer turnkey specialized services for military bases, global armies, and diplomatic missions.</p>
                     <a href="baselife.php" class="service-learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
                 </div>
 
