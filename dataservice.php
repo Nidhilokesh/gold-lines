@@ -6,405 +6,252 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Data Services | Golden Lines Company</title>
-    <link rel="stylesheet" href="css/generalservices.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <title>Data Services</title>
+    <link rel="stylesheet" href="css/ict-services.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
-        /* Hero Section */
-        .hero {
-            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/dia2.jpg') no-repeat center center/cover;
+     .hero {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/ict-services-bg.jpg') no-repeat center center/cover;
             color: var(--text-white);
             text-align: center;
             padding: 120px 15px;
             position: relative;
             overflow: hidden;
         }
-        
-        /* Service card specific styles */
-        .service-card ul {
-            list-style-type: none;
-            padding-left: 0;
-            margin-top: 15px;
+      /* Enhanced Header Text Styling */
+      .hero .hero-content h1 {
+        font-size: 3.5rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        margin-bottom: 20px;
+        text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+        position: relative;
+        display: inline-block;
+    }
+    
+    .hero .hero-content h1:after {
+        content: '';
+        position: absolute;
+        width: 60%;
+        height: 3px;
+        background: linear-gradient(90deg, transparent, #fff, transparent);
+        bottom: -10px;
+        left: 20%;
+    }
+    .hero .hero-content p {
+    font-size: clamp(16px, 3vw, 22px);
+    margin-bottom: 30px;
+    color: var(--text-light);
+}
+    
+    .hero .hero-content {
+        max-width: 800px;
+        margin: 0 auto;
+        animation: fadeInUp 1s ease-out;
+    }
+    
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(30px);
         }
-        
-        .service-card ul li {
-            margin-bottom: 8px;
-            position: relative;
-            padding-left: 25px;
+        to {
+            opacity: 1;
+            transform: translateY(0);
         }
-        
-        .service-card ul li:before {
-            content: "\f00c";
-            font-family: 'Font Awesome 5 Free';
-            font-weight: 900;
-            position: absolute;
-            left: 0;
-            color: var(--primary-color);
-        }
-        
-        /* Services Grid - Updated Alignment */
-        .services-grid {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 30px;
-            margin-top: 40px;
-        }
-        
-        .service-card {
-            flex: 0 0 calc(50% - 30px);
-            max-width: 550px;
-            margin-bottom: 20px;
-            text-align: left;
-        }
-        
-        @media (max-width: 992px) {
-            .service-card {
-                flex: 0 0 100%;
-            }
-        }
+    }
+    .hero .hero-cta {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 15px 30px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
 
-        /* Benefits section - Redesigned */
-        .benefits-section {
-            background: linear-gradient(135deg, #0A1F4A 0%, #15305e 100%);
-            padding: 80px 15px;
-            text-align: center;
-            border-top: 1px solid rgba(196,169,104,0.3);
-            position: relative;
-        }
-        
-        .benefits-section::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-image: url('images/pattern.png');
-            background-size: 200px;
-            opacity: 0.05;
-            pointer-events: none;
-        }
-        
-        .benefits-container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 30px;
-            margin: 50px auto;
-            max-width: 1200px;
-        }
-        
-        .benefit-card {
-            background-color: rgba(255, 255, 255, 0.03);
-            border-radius: 10px;
-            padding: 25px 20px;
-            flex: 0 0 calc(33.333% - 30px);
-            border: 1px solid rgba(196, 169, 104, 0.15);
-            transition: all 0.3s ease;
-            position: relative;
-            overflow: hidden;
-        }
-        
-        .benefit-card:hover {
-            transform: translateY(-5px);
-            border-color: rgba(196, 169, 104, 0.4);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-        }
-        
-        .benefit-icon {
-            display: inline-flex;
-            justify-content: center;
-            align-items: center;
-            width: 70px;
-            height: 70px;
-            border-radius: 50%;
-            background-color: rgba(196, 169, 104, 0.15);
-            margin-bottom: 20px;
-            color: #C4A968;
-            font-size: 1.8rem;
-        }
-        
-        .benefit-title {
-            color: #C4A968;
-            font-size: 1.3rem;
-            margin-bottom: 15px;
-            font-weight: 600;
-        }
-        
-        .benefit-text {
-            color: white;
-            line-height: 1.6;
-        }
-        
-        @media (max-width: 992px) {
-            .benefit-card {
-                flex: 0 0 calc(50% - 30px);
-            }
-        }
-        
-        @media (max-width: 768px) {
-            .benefit-card {
-                flex: 0 0 100%;
-            }
-        }
-        
-        /* CTA Section */
-        .cta-section {
-            background-color: var(--secondary-color);
-            padding: 40px 20px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        
-        .cta-card {
-            background-color: #0A1F44;
-            border-radius: 12px;
-            overflow: hidden;
-            width: 100%;
-            max-width: 1200px;
-            position: relative;
-            padding: 50px 30px;
-            border: 1px solid rgba(196, 169, 104, 0.3);
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-            height: 300px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        
-        .cta-card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-image: url('../images/cta.jpg');
-            background-size: cover;
-            background-position: center;
-            opacity: 0.15;
-            z-index: 1;
-            border-radius: 12px;
-        }
-        
-        .cta-content {
-            position: relative;
-            z-index: 2;
-            text-align: center;
-            color: white;
-            width: 100%;
-        }
-        
-        .cta-heading {
-            color: #C4A968;
-            font-size: 2.5rem;
-            font-weight: 700;
-            margin-bottom: 20px;
-        }
-        
-        .cta-text {
-            font-size: 1.1rem;
-            line-height: 1.6;
-            margin-bottom: 30px;
-            max-width: 800px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        
-        .cta-button {
-            display: inline-block;
-            background-color: #C4A968;
-            color: #0A1F44;
-            font-weight: bold;
-            padding: 15px 40px;
-            border-radius: 50px;
-            font-size: 1.1rem;
-            text-decoration: none;
-            transition: all 0.3s ease;
-        }
-        
-        .cta-button:hover {
-            background-color: #d8bd7d;
-            transform: translateY(-3px);
-            box-shadow: 0 5px 15px rgba(196, 169, 104, 0.4);
-        }
-    </style>
+.hero .hero-cta:hover {
+    background-color: var(--text-white);
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(196,169,104,0.3);
+}
+</style>
 </head>
 <body>
-    <!-- Hero Section -->
-    <section class="hero fade-in" id="data-services">
+<section class="hero fade-in" id="ict-services">
         <div class="hero-content">
             <h1 class="fade-in">DATA SERVICES</h1>
-            <p class="fade-in">Golden Lines Company delivers enterprise-grade connectivity solutions designed to empower businesses with reliable, secure, and high-performance data services. Our comprehensive suite of offerings ensures your organization stays connected in today's digital landscape.</p>
+            <p class="fade-in">Golden Lines Company is your strategic partner in delivering advanced Information and Communications Technology (ICT) solutions, tailor-made to empower businesses across Saudi Arabia. We bring creativity, expertise, and innovation to the forefront, helping B2B clients unlock their true potential in a rapidly evolving digital landscape.</p>
             <div>
                 <a href="#service-details" class="hero-cta fade-in">Our Services</a>
                 <a href="contact.php" class="hero-cta fade-in">Contact Us</a>
             </div>
         </div>
     </section>
+    <section class="itc-services-section fade-in">
 
-    <!-- Services Section -->
-    <section class="services fade-in" id="service-details">
-        <div class="section-header">
-            <h2 class="fade-in">Our Data Services</h2>
-        </div>
-        <div class="services-grid">
-            <div class="service-card fade-in">
-                <div class="service-icon">
-                    <i class="fas fa-globe"></i>
+        <div class="itc-services-container">
+        <h3>Dedicated Internet Access (DIA)</h3>
+            <div class="itc-services-content">            
+                <div class="itc-services-text">
+                    <p>Our DIA solution is engineered for enterprises aiming to provide their employees with high-speed, secure Internet access on a 1:1 basis ensuring every application benefits from dedicated, reliable connectivity. Designed to support a range of mission-critical data applications, DIA seamlessly facilitates Internet E-mail and Web-based Applications.</p>
+                    <div class="itc-services-features">
+                        <h4>Key Features:</h4>
+                        <ul>
+                            <li>Enterprise-grade 1:1 dedicated bandwidth</li>
+                            <li>Available via fiber and microwave point-to-point links</li>
+                            <li>Support for mission-critical applications</li>
+                            <li>Enhanced IT productivity</li>
+                            <li>Comprehensive backup solutions</li>
+                            <li>Reduced network management burden</li>
+                        </ul>
+                    </div>                    
                 </div>
-                <h3>Dedicated Internet Access (DIA)</h3>
-                <p>Our DIA solution is engineered for enterprises aiming to provide their employees with high-speed, secure Internet access on a 1:1 basis ensuring every application benefits from dedicated, reliable connectivity.</p>
-                <ul>
-                    <li>Enterprise-grade 1:1 dedicated bandwidth</li>
-                    <li>Available via fiber and microwave point-to-point links</li>
-                    <li>Support for mission-critical applications</li>
-                    <li>Enhanced IT productivity</li>
-                    <li>Comprehensive backup solutions</li>
-                </ul>
-            </div>
-
-            <div class="service-card fade-in">
-                <div class="service-icon">
-                    <i class="fas fa-shield-alt"></i>
+                <div class="itc-services-image">
+                    <img src="images/dia.png" alt="dedicated internet access" style="width:90%; height:auto;">
                 </div>
-                <h3>IP VPN L3</h3>
-                <p>IP VPN Internet Protocol Virtual Private Network L3 revolutionizes network connectivity through its peer-to-peer model, utilizing Border Gateway Protocol (BGP) to distribute VPN-related information.</p>
-                <ul>
-                    <li>Robust, scalable, secure communication solution</li>
-                    <li>Connect any work site across the Kingdom to our local network</li>
-                    <li>Route all traffic locally for stable connections</li>
-                    <li>Enhanced data security</li>
-                    <li>Minimal connection delays</li>
-                </ul>
-            </div>
-
-            <div class="service-card fade-in">
-                <div class="service-icon">
-                    <i class="fas fa-network-wired"></i>
-                </div>
-                <h3>PLL L2 Service</h3>
-                <p>A GOLDEN LINES COMPANY GLC Layer 2 Virtual Private Network (L2 VPN) is a powerful solution replicating a physical sub-network within an IP or MPLS network by establishing private connections between two endpoints.</p>
-                <ul>
-                    <li>Private connections between endpoints</li>
-                    <li>Enhanced confidentiality of customer data</li>
-                    <li>Resource optimization</li>
-                    <li>Unified infrastructure for Layer 2 and 3 services</li>
-                    <li>Cost-effectiveness through network convergence</li>
-                </ul>
-            </div>
-
-            <div class="service-card fade-in">
-                <div class="service-icon">
-                    <i class="fas fa-project-diagram"></i>
-                </div>
-                <h3>SD-WAN</h3>
-                <p>Golden Lines Company GLC offers a Software-defined Wide Area Network (SD-WAN), a virtual architecture for wide area networks that allows enterprises to utilize a combination of transport services.</p>
-                <ul>
-                    <li>Enhanced network resilience</li>
-                    <li>Quality of Service (QoS) guarantees</li>
-                    <li>Robust security measures</li>
-                    <li>Optimized network performance</li>
-                    <li>Dynamic routing capabilities</li>
-                    <li>Simplified administration and troubleshooting</li>
-                </ul>
             </div>
         </div>
+
+        <div class="divider"></div>
+        
+        <div class="itc-services-container">
+            <div class="itc-services-content">
+
+            <div class="itc-services-image">
+                <img src="images/vpn.png" alt="VPN services" style="width:90%; height:auto;">
+            </div>
+                <div class="itc-services-text">
+                    <h3>IP VPN L3</h3>
+                    <p>IP VPN Internet Protocol Virtual Private Network L3 revolutionizes network connectivity through its peer-to-peer model, utilizing Border Gateway Protocol (BGP) to distribute VPN-related information. IP VPNs offer a robust, scalable, secure, and efficient communication solution.</p>
+                    <div class="itc-services-features">                                        
+                        <ul>
+                            <li>Robust, scalable, secure communication solution</li>
+                            <li>Connect any work site across the Kingdom to our local network</li>
+                            <li>Route all traffic locally for stable connections</li>
+                            <li>Enhanced data security</li>
+                            <li>Minimal connection delays</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- <div class="itc-services-image">
+                    <img src="images/vpn.png" alt="VPN services" style="width:90%; height:auto;">
+                </div> -->
+            </div>
+        </div>
+
+        <div class="divider"></div>
+        
+        <div class="itc-services-container">
+            <div class="itc-services-content">            
+                <div class="itc-services-text">
+                    <h3>PLL L2 Service</h3>
+                    <p>A GOLDEN LINES COMPANY GLC Layer 2 Virtual Private Network (L2 VPN) is a powerful solution replicating a physical sub-network within an IP or MPLS network by establishing private connections between two endpoints.</p>
+                    <div class="itc-services-features">
+                        <h4>Key Advantages:</h4>
+                        <ul>
+                            <li>Private connections between endpoints</li>
+                            <li>Enhanced confidentiality of customer data</li>
+                            <li>Resource optimization</li>
+                            <li>Unified infrastructure for Layer 2 and 3 services</li>
+                            <li>Cost-effectiveness through network convergence</li>
+                        </ul>
+                    </div>                    
+                </div>
+                <div class="itc-services-image">
+                    <img src="images/l2.png" alt="L2 Service" style="width:90%; height:auto;">
+                </div>
+            </div>
+        </div>
+
+        <div class="divider"></div>
+        
+        <div class="itc-services-container">
+            <div class="itc-services-content">
+                <div class="itc-services-image">
+                    <img src="images/sd.png" alt="SD-WAN" style="width:90%; height:auto;">
+                </div>
+                <div class="itc-services-text">
+                    <h3>SD-WAN</h3>
+                    <p>Golden Lines Company GLC offers a Software-defined Wide Area Network (SD-WAN), a virtual architecture for wide area networks that allows enterprises to utilize a combination of transport services.</p>
+                    <div class="itc-services-features">                                        
+                        <ul>
+                            <li>Enhanced network resilience</li>
+                            <li>Quality of Service (QoS) guarantees</li>
+                            <li>Robust security measures</li>
+                            <li>Optimized network performance</li>
+                            <li>Dynamic routing capabilities</li>
+                            <li>Simplified administration and troubleshooting</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="divider"></div>
+        
+        <div class="itc-services-container">
+            <div class="itc-services-content">
+                <div class="itc-services-text">
+                    <h3>Benefits of Our Data Services</h3>
+                    <div class="itc-services-features">                                        
+                        <ul>
+                            <li>Dedicated 1:1 bandwidth ensuring reliable connectivity</li>
+                            <li>Enhanced security with robust protection measures</li>
+                            <li>Seamless integration with existing infrastructure</li>
+                            <li>Reduced network management burden on IT teams</li>
+                            <li>24/7 technical support and monitoring</li>
+                            <li>Scalable solutions that grow with your business</li>
+                        </ul>
+                    </div>
+                    <p>Let us help you leverage the power of our advanced data services to take your business to the next level.</p>
+                </div>
+                <!-- <div class="itc-services-image">
+                    <img src="images/benefits.jpg" alt="Data Service Benefits" style="width:70%; height:auto;">
+                </div> -->
+            </div>
+        </div>
+
+        <div class="divider"></div>
+
     </section>
-
-    <!-- Benefits Section - Redesigned -->
-    <section class="benefits-section fade-in" id="benefits">
-        <div class="section-header">
-            <h2 class="fade-in">Benefits of Our Data Services</h2>
-            <p class="fade-in">Our enterprise-grade data connectivity solutions provide numerous advantages for your business</p>
-        </div>
-        <div class="benefits-container">
-            <div class="benefit-card fade-in">
-                <div class="benefit-icon">
-                    <i class="fas fa-tachometer-alt"></i>
-                </div>
-                <h3 class="benefit-title">Dedicated Bandwidth</h3>
-                <p class="benefit-text">Enjoy reliable 1:1 dedicated bandwidth ensuring consistent connectivity for all your business applications.</p>
-            </div>
-            
-            <div class="benefit-card fade-in">
-                <div class="benefit-icon">
-                    <i class="fas fa-shield-alt"></i>
-                </div>
-                <h3 class="benefit-title">Enhanced Security</h3>
-                <p class="benefit-text">Implement robust protection measures to safeguard your valuable business data and communications.</p>
-            </div>
-            
-            <div class="benefit-card fade-in">
-                <div class="benefit-icon">
-                    <i class="fas fa-plug"></i>
-                </div>
-                <h3 class="benefit-title">Seamless Integration</h3>
-                <p class="benefit-text">Effortlessly integrate our solutions with your existing infrastructure without disrupting operations.</p>
-            </div>
-            
-            <div class="benefit-card fade-in">
-                <div class="benefit-icon">
-                    <i class="fas fa-tasks"></i>
-                </div>
-                <h3 class="benefit-title">Reduced IT Burden</h3>
-                <p class="benefit-text">Lower your network management workload, allowing your IT teams to focus on strategic initiatives.</p>
-            </div>
-            
-            <div class="benefit-card fade-in">
-                <div class="benefit-icon">
-                    <i class="fas fa-headset"></i>
-                </div>
-                <h3 class="benefit-title">24/7 Support</h3>
-                <p class="benefit-text">Rest easy with round-the-clock technical support and monitoring for your critical network services.</p>
-            </div>
-            
-            <div class="benefit-card fade-in">
-                <div class="benefit-icon">
-                    <i class="fas fa-expand-arrows-alt"></i>
-                </div>
-                <h3 class="benefit-title">Scalable Solutions</h3>
-                <p class="benefit-text">Implement flexible connectivity options that grow alongside your business needs and objectives.</p>
-            </div>
-        </div>
-        <p class="fade-in">Let us help you leverage the power of our advanced data services to take your business to the next level.</p>
-    </section>
-    
-    <!-- CTA Section -->
-    <section class="cta-section fade-in">
+    <section class="cta-section">
         <div class="cta-card">
             <div class="cta-content">
-                <h2 class="cta-heading fade-in">Let's Build Your Vision Together</h2>
-                <p class="cta-text fade-in">Backed by a proven history of excellence and a commitment to delivering tangible value, Golden Lines Company is your trusted partner for success in the Kingdom of Saudi Arabia and beyond.</p>
-                <a href="contact.php" class="cta-button fade-in">Contact Us Today</a>
+                <h2 class="cta-heading">Let's Build Your Vision Together.</h2>
+                <p class="cta-text">Backed by a proven history of excellence and a commitment to delivering tangible value, Golden Lines Company is your trusted partner for success in the Kingdom of Saudi Arabia and beyond.</p>
+                <a href="contact.php" class="cta-button">Contact Us Today</a>
             </div>
         </div>
     </section>
 
     <script>
-        // Scroll Animation Script
         document.addEventListener('DOMContentLoaded', () => {
-            const fadeElements = document.querySelectorAll('.fade-in');
-            
             const observerOptions = {
-                root: null,
-                rootMargin: '0px',
-                threshold: 0.1
+                threshold: 0.2,
+                rootMargin: '0px 0px -100px 0px'
             };
 
-            const observer = new IntersectionObserver((entries, observer) => {
+            const observer = new IntersectionObserver((entries) => {
                 entries.forEach(entry => {
                     if (entry.isIntersecting) {
-                        entry.target.classList.add('active');
-                        observer.unobserve(entry.target);
+                        entry.target.classList.add('visible');
                     }
                 });
             }, observerOptions);
 
-            fadeElements.forEach(element => {
+            // Observe section headers
+            document.querySelectorAll('.section-header').forEach(element => {
+                observer.observe(element);
+            });
+            
+            // Observe service containers
+            document.querySelectorAll('.itc-services-container').forEach(element => {
                 observer.observe(element);
             });
         });

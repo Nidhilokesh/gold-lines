@@ -117,87 +117,87 @@
                 margin-bottom: 30px;
             }
         }
-        /* CTA Section */
-.cta-section {
-    background-color: var(--secondary-color);
-    padding: 40px 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-  
-.cta-card {
-    background-color: #0A1F44;
-    border-radius: 12px;
-    overflow: hidden;
-    width: 100%;
-    max-width: 1200px;
-    position: relative;
-    padding: 50px 30px;
-    border: 1px solid rgba(196, 169, 104, 0.3);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-    height: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-  
-.cta-card::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-image: url('images/cta.jpg');
-    background-size: cover;
-    background-position: center;
-    opacity: 0.15;
-    z-index: 1;
-    border-radius: 12px;
-}
-  
-.cta-content {
-    position: relative;
-    z-index: 2;
-    text-align: center;
-    color: white;
-    width: 100%;
-}
-  
-.cta-heading {
-    color: #C4A968;
-    font-size: 2.5rem;
-    font-weight: 700;
-    margin-bottom: 20px;
-}
-  
-.cta-text {
-    font-size: 1.1rem;
-    line-height: 1.6;
-    margin-bottom: 30px;
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-}
-  
-.cta-button {
-    display: inline-block;
-    background-color: #C4A968;
-    color: #0A1F44;
-    font-weight: bold;
-    padding: 15px 40px;
-    border-radius: 50px;
-    font-size: 1.1rem;
-    text-decoration: none;
-    transition: all 0.3s ease;
-}
-  
-.cta-button:hover {
-    background-color: #d8bd7d;
-    transform: translateY(-3px);
-    box-shadow: 0 5px 15px rgba(196, 169, 104, 0.4);
-}
+                /* CTA Section */
+        .cta-section {
+            background-color: var(--secondary-color);
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .cta-card {
+            background-color: #0A1F44;
+            border-radius: 12px;
+            overflow: hidden;
+            width: 100%;
+            max-width: 1200px;
+            position: relative;
+            padding: 50px 30px;
+            border: 1px solid rgba(196, 169, 104, 0.3);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .cta-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: url('images/cta.jpg');
+            background-size: cover;
+            background-position: center;
+            opacity: 0.15;
+            z-index: 1;
+            border-radius: 12px;
+        }
+        
+        .cta-content {
+            position: relative;
+            z-index: 2;
+            text-align: center;
+            color: white;
+            width: 100%;
+        }
+        
+        .cta-heading {
+            color: #C4A968;
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+        
+        .cta-text {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 30px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background-color: #C4A968;
+            color: #0A1F44;
+            font-weight: bold;
+            padding: 15px 40px;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        
+        .cta-button:hover {
+            background-color: #d8bd7d;
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(196, 169, 104, 0.4);
+        }
     </style>
 </head>
 

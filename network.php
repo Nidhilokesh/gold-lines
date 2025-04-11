@@ -9,13 +9,62 @@
     <title>ITC Services -Networking, CCTV & LED screens</title>
     <link rel="stylesheet" href="css/ict-services.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+    .hero {
+        background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/dia1.webp') no-repeat center center/cover;
+        color: var(--text-white);
+        text-align: center;
+        padding: 120px 15px;
+        position: relative;
+        overflow: hidden;
+    }
+      /* Enhanced Header Text Styling */
+      .hero .hero-content h1 {
+        font-size: 3.5rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        margin-bottom: 20px;
+        text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+        position: relative;
+        display: inline-block;
+    }
+    
+    .hero .hero-content h1:after {
+        content: '';
+        position: absolute;
+        width: 60%;
+        height: 3px;
+        background: linear-gradient(90deg, transparent, #fff, transparent);
+        bottom: -10px;
+        left: 20%;
+    }
+    
+    .hero .hero-content {
+        max-width: 800px;
+        margin: 0 auto;
+        animation: fadeInUp 1s ease-out;
+    }
+    
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+</style>
 </head>
 <body>
-    <section class="itc-services-section fade-in">  
-        <div class="section-header">
-            <h2>LOW CURRENT SERVICES</h2>
+<section class="hero fade-in">
+        <div class="hero-content" >
+            <h1 class="fade-in">LOW CURRENT SERVICES</h1>
         </div>
-        
+    </section>
+    <section class="itc-services-section fade-in">  
         <div class="itc-services-container">
             <div class="itc-services-content">
                 <div class="itc-services-text">
