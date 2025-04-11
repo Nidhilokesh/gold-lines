@@ -81,6 +81,175 @@
     box-shadow: 0 6px 12px rgba(196,169,104,0.3);
 }
 
+/* Enhanced Mobile Responsiveness */
+@media screen and (max-width: 768px) {
+    /* Hero section improvements */
+    .hero {
+        padding: 80px 15px;
+    }
+    
+    .hero .hero-content h1 {
+        font-size: 2rem;
+        letter-spacing: 2px;
+    }
+    
+    .hero .hero-cta {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+    
+    /* Services section improvements */
+    .itc-services-section {
+        padding: 2rem 1rem;
+    }
+    
+    .divider {
+        width: 90%;
+        margin: 15px auto;
+    }
+    
+    .itc-services-container {
+        padding: 20px 10px;
+    }
+    
+    .itc-services-container h3,
+    .itc-services-text h3 {
+        font-size: 1.5rem;
+        margin-bottom: 0.8rem;
+    }
+    
+    .itc-services-text p {
+        font-size: 0.9rem;
+        line-height: 1.4;
+    }
+    
+    .itc-services-features {
+        padding: 1rem;
+    }
+    
+    .itc-services-features h4 {
+        font-size: 1rem;
+    }
+    
+    .itc-services-features li {
+        font-size: 0.9rem;
+        margin-bottom: 0.4rem;
+        padding-left: 20px;
+    }
+    
+    /* CTA section improvements */
+    .cta-card {
+        height: auto;
+        padding: 40px 15px;
+    }
+    
+    .cta-heading {
+        font-size: 1.8rem;
+    }
+    
+    .cta-text {
+        font-size: 0.9rem;
+        margin-bottom: 20px;
+    }
+    
+    .cta-button {
+        padding: 12px 30px;
+        font-size: 0.9rem;
+    }
+}
+
+/* Extra Small Devices */
+@media screen and (max-width: 480px) {
+    .hero .hero-content h1 {
+        font-size: 1.5rem;
+    }
+    
+    .hero .hero-content p {
+        font-size: 0.9rem;
+    }
+    
+    .hero .hero-cta {
+        display: block;
+        width: 80%;
+        margin: 10px auto;
+        padding: 10px 15px;
+        font-size: 0.8rem;
+    }
+    
+    .itc-services-container h3,
+    .itc-services-text h3 {
+        font-size: 1.2rem;
+    }
+    
+    .itc-services-features li {
+        font-size: 0.8rem;
+    }
+    
+    .cta-heading {
+        font-size: 1.3rem;
+    }
+    
+    .cta-text {
+        font-size: 0.8rem;
+    }
+    
+    .cta-button {
+        padding: 10px 25px;
+        font-size: 0.8rem;
+        width: 80%;
+    }
+    
+    /* Fix image sizing on small screens */
+    .itc-services-image img {
+        width: 100%;
+        height: auto;
+        max-height: 200px;
+        object-fit: contain;
+    }
+}
+
+/* Improve Touch Targets for Mobile */
+@media (pointer: coarse) {
+    .hero .hero-cta,
+    .cta-button {
+        min-height: 44px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .itc-services-features li {
+        padding-bottom: 8px;
+    }
+}
+
+/* Fix flex display for image/text layout */
+@media screen and (max-width: 1024px) {
+    .itc-services-content {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    
+    .itc-services-text,
+    .itc-services-image {
+        transform: none; /* Remove horizontal animations on mobile */
+        width: 100%;
+    }
+    
+    /* Reset the transform directions for mobile */
+    .itc-services-container:nth-child(even) .itc-services-content {
+        flex-direction: column;
+    }
+    
+    /* Ensure proper vertical order regardless of desktop layout */
+    .itc-services-container:nth-child(even) .itc-services-image {
+        order: 1;
+    }
+    
+    .itc-services-container:nth-child(even) .itc-services-text {
+        order: 2;
+    }
+}
 </style>
 </head>
 <body>
