@@ -124,7 +124,7 @@
                     <div class="project-details">
                         <h4>Modern Technology | Agile Solutions</h4>
                         <p>Golden Lines Company delivers innovative solutions empower businesses with cutting-edge technology services across software development, cybersecurity, data engineering, and professional consulting.</p>
-                        <a href="innovation.php" class="service-learn-more">Learn More <i class="fas fa-caret-right"></i></a>
+                        <a href="innovative.php" class="service-learn-more">Learn More <i class="fas fa-caret-right"></i></a>
                     </div>
                 </div>
 
