@@ -68,7 +68,7 @@
 
         <div class="footer-bottom">
             <div class="copyright">
-                © 2025 All Rights Reserved by <span class="span"> Goldenlines</span>
+                © 2025 All Rights Reserved by <span class="span"> Golden Lines Company</span>
             </div>
             <div class="maintained-by">
                Developed by <a href="https://www.optimumsync.com" class="underline" target="_blank">Optimum Sync</a>
